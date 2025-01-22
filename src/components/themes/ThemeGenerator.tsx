@@ -15,10 +15,12 @@ import { useState } from "react";
 
 const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB limit
 
-function extractColors(imageEl) {
+function extractColors(imageEl: any) {
   // Create a canvas to draw the image
   const canvas = document.createElement("canvas");
   const ctx = canvas.getContext("2d");
+  if (!ctx) return [];
+
   canvas.width = imageEl.width;
   canvas.height = imageEl.height;
 
@@ -42,18 +44,22 @@ function extractColors(imageEl) {
   return colors;
 }
 
-function generateTheme(colors) {
+function generateTheme(colors: any) {
   // Sort colors by brightness
   const sortedColors = colors.sort(
-    (a, b) => chroma(b).luminance() - chroma(a).luminance()
+    (a: any, b: any) => chroma(b).luminance() - chroma(a).luminance()
   );
 
   // Get most common colors in different luminance ranges
-  const darkColors = sortedColors.filter((c) => chroma(c).luminance() < 0.3);
-  const midColors = sortedColors.filter(
-    (c) => chroma(c).luminance() >= 0.3 && chroma(c).luminance() < 0.7
+  const darkColors = sortedColors.filter(
+    (c: any) => chroma(c).luminance() < 0.3
   );
-  const lightColors = sortedColors.filter((c) => chroma(c).luminance() >= 0.7);
+  const midColors = sortedColors.filter(
+    (c: any) => chroma(c).luminance() >= 0.3 && chroma(c).luminance() < 0.7
+  );
+  // const lightColors = sortedColors.filter(
+  //   (c: any) => chroma(c).luminance() >= 0.7
+  // );
 
   // Select colors for the theme
   const columnBg = darkColors[0]?.hex() || "#1a1d21";
@@ -85,7 +91,7 @@ export function ThemeGenerator() {
   const [open, setOpen] = useState(false);
   const { setCurrentTheme } = useThemeStore();
 
-  const handleImageUpload = (e) => {
+  const handleImageUpload = (e: any) => {
     const file = e.target.files?.[0];
     if (!file) return;
 
@@ -182,8 +188,8 @@ export function ThemeGenerator() {
           </div>
           <p className="text-xs text-muted-foreground">
             Upload your workspace logo (max 5MB) to automatically generate a
-            matching Slack theme. The generator will analyze your logo's colors
-            to create a harmonious theme. Results may vary, a lot!
+            matching Slack theme. The generator will analyze your {`logo's`}{" "}
+            colors to create a harmonious theme. Results may vary, a lot!
           </p>
         </div>
       </DialogContent>

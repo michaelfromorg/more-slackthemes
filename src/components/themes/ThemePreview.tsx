@@ -5,10 +5,10 @@ import { Hash } from "lucide-react";
 
 interface ThemePreviewProps {
   theme: Theme;
-  isSelected?: boolean;
+  // isSelected?: boolean;
 }
 
-export function ThemePreview({ theme, isSelected }: ThemePreviewProps) {
+export function ThemePreview({ theme }: ThemePreviewProps) {
   const { parsedColors } = theme;
 
   return (

@@ -9,7 +9,9 @@ export function ThemeGrid() {
   if (filteredThemes.length === 0) {
     return (
       <div className="p-6 text-center text-gray-500">
-        No themes found matching "{searchQuery}"
+        No themes found matching {`"`}
+        {searchQuery}
+        {`"`}
       </div>
     );
   }
@@ -28,7 +30,7 @@ export function ThemeGrid() {
             <ThemePreview
               key={theme.slug}
               theme={theme}
-              isSelected={theme.slug === currentTheme.slug}
+              // isSelected={theme.slug === currentTheme.slug}
             />
           ))}
         </div>

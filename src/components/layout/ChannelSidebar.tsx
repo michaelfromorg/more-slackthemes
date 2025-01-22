@@ -53,7 +53,7 @@ export function ChannelSidebar() {
             isActive={true}
             isYou={true}
           />
-          <DirectMessageItem name="jack" src="/images/jack.jpg" isAway={true} />
+          <DirectMessageItem name="jack" src="/images/jack.jpg" />
           <DirectMessageItem
             name="jane"
             src="/images/jane.jpg"
@@ -143,7 +143,7 @@ interface DirectMessageItemProps {
   src: string;
   isBot?: boolean;
   isActive?: boolean;
-  isAway?: boolean;
+  // isAway?: boolean;
   isDND?: boolean;
   isYou?: boolean;
   notifications?: number;
@@ -154,7 +154,6 @@ function DirectMessageItem({
   src,
   isBot,
   isActive,
-  isAway,
   isDND,
   isYou,
   notifications,

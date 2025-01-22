@@ -1,13 +1,11 @@
+import useThemeStore from "@/store/theme-store";
 import {
-  Hash,
-  MessageSquare,
   AtSign,
   Bookmark,
-  ChevronDown,
+  MessageSquare,
   MessagesSquare,
   MoreHorizontal,
 } from "lucide-react";
-import useThemeStore from "@/store/theme-store";
 
 interface SidebarItemProps {
   icon: React.ReactNode;

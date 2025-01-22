@@ -24,7 +24,8 @@ export function ThemeShare() {
       <div className="flex justify-between items-center mb-2">
         <p className="text-sm text-muted-foreground">
           Copy and paste these values into Slack to import this theme. (If you
-          send a DM to yourself with this content, a magic 'Apply Slack Theme'
+          send a DM to yourself with this content, a magic{" "}
+          {`'Apply Slack Theme'`}
           button will appear!)
         </p>
         <ThemeGenerator />
