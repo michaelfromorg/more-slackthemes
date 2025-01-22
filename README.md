@@ -1,3 +1,9 @@
+# Slack Themes
+
+A website that shows Slack themes.
+
+---
+
 <p align="center">
 <a href="https://http://slackthemes.net" target="_blank"><img src="https://raw.githubusercontent.com/paracycle/slackthemes/master/source/favicon-32.png"></a>
 <br /><strong>Slack Themes</strong>

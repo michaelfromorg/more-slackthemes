@@ -1,3 +1,9 @@
 {
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.removeUnusedImports": "never",
+    "source.sortImports": "explicit",
+    "source.organizeImports": "explicit",
+    "source.organizeLinkDefinitions": "explicit"
+  }
 }
