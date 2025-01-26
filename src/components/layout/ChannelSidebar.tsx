@@ -30,7 +30,7 @@ export function ChannelSidebar() {
       {/* Sidebar Content */}
       <div className="flex-1 overflow-y-auto custom-scrollbar">
         <SidebarSection title="Channels">
-          <ChannelItem name="general" active={true} notifications={8} />
+          <ChannelItem name="general" active={true} />
           <ChannelItem name="random" notifications={3} />
           <button
             className="w-full px-2 py-1 text-sm flex items-center gap-2 rounded hover:bg-black/5"
