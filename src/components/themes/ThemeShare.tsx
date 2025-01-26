@@ -3,6 +3,7 @@ import { Input } from "@/components/ui/input";
 import useThemeStore from "@/store/theme-store";
 import { Check, Copy } from "lucide-react";
 import { useState } from "react";
+import { AddToSlackButton } from "./AddToSlackButton";
 import { ThemeGenerator } from "./ThemeGenerator";
 
 export function ThemeShare() {
@@ -23,10 +24,7 @@ export function ThemeShare() {
     <div className="p-4 border-t bg-white">
       <div className="flex justify-between items-center mb-2">
         <p className="text-sm text-muted-foreground">
-          Copy and paste these values into Slack to import this theme. (If you
-          send a DM to yourself with this content, a magic{" "}
-          {`'Apply Slack Theme'`}
-          button will appear!)
+          Copy and paste these values into Slack to import this theme, or click the button to apply directly.
         </p>
         <ThemeGenerator />
       </div>
@@ -36,6 +34,7 @@ export function ThemeShare() {
           readOnly
           className="font-mono text-sm"
         />
+        <AddToSlackButton className="shrink-0" />
         <Button
           variant="outline"
           size="icon"

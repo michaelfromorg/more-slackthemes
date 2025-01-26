@@ -125,7 +125,7 @@ function ChannelItem({ name, active, notifications }: ChannelItemProps) {
       </div>
       {notifications && (
         <span
-          className="px-1.5 rounded text-xs font-bold"
+          className="px-1.5 py-0.5 rounded text-xs font-bold"
           style={{
             backgroundColor: active ? undefined : parsedColors.mentionBadge,
             color: "#FFFFFF",
@@ -182,8 +182,8 @@ function DirectMessageItem({
                 backgroundColor: isActive
                   ? parsedColors.activePresence
                   : isDND
-                  ? "#F40B0B"
-                  : "#949494",
+                    ? "#F40B0B"
+                    : "#949494",
                 borderColor: parsedColors.columnBg,
               }}
             />
@@ -194,7 +194,7 @@ function DirectMessageItem({
       </div>
       {notifications && (
         <span
-          className="px-1.5 rounded text-xs font-bold"
+          className="px-1.5 py-0.5 rounded text-xs font-bold"
           style={{
             backgroundColor: parsedColors.mentionBadge,
             color: "#FFFFFF",

@@ -8,7 +8,7 @@ export function ThemeGrid() {
 
   if (filteredThemes.length === 0) {
     return (
-      <div className="p-6 text-center text-gray-500">
+      <div className="p-4 text-center text-gray-500">
         No themes found matching {`"`}
         {searchQuery}
         {`"`}
@@ -17,7 +17,7 @@ export function ThemeGrid() {
   }
 
   return (
-    <div className="p-6 bg-white min-h-full">
+    <div className="p-4 bg-white min-h-full">
       <RadioGroup
         value={currentTheme.slug}
         onValueChange={(value) => {
@@ -25,13 +25,9 @@ export function ThemeGrid() {
           if (theme) setCurrentTheme(theme);
         }}
       >
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4">
           {filteredThemes.map((theme) => (
-            <ThemePreview
-              key={theme.slug}
-              theme={theme}
-              // isSelected={theme.slug === currentTheme.slug}
-            />
+            <ThemePreview key={theme.slug} theme={theme} />
           ))}
         </div>
       </RadioGroup>

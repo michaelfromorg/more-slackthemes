@@ -16,29 +16,27 @@ export function Layout({ children }: LayoutProps) {
 
   return (
     <div className="h-screen flex flex-col">
-      {/* Top Nav now spans full width */}
       <TopNav />
-
-      {/* Main content area with sidebars */}
       <div className="flex-1 flex min-h-0">
-        <TeamSidebar />
+        <div className="hidden lg:block">
+          <TeamSidebar />
+        </div>
 
         <div className="flex-1 flex min-w-0">
-          <ChannelSidebar />
+          <div className="hidden lg:block">
+            <ChannelSidebar />
+          </div>
 
-          {/* Main content */}
           <main className="flex-1 flex flex-col min-w-0 bg-white">
-            {/* Main content area */}
             <div className="flex-1 overflow-auto bg-white">{children}</div>
 
-            {/* Footer credits */}
             <div
-              className="px-4 py-2 text-sm border-t flex justify-between items-center bg-white text-gray-900"
+              className="px-4 py-2 text-sm border-t flex flex-col lg:flex-row justify-between items-center gap-2 bg-white text-gray-900"
               style={{
                 borderColor: chroma(parsedColors.textColor).alpha(0.1).css(),
               }}
             >
-              <div>
+              <div className="text-center lg:text-left">
                 Not affiliated with{" "}
                 <a
                   href="https://slack.com"
@@ -47,20 +45,10 @@ export function Layout({ children }: LayoutProps) {
                   rel="noopener noreferrer"
                 >
                   Slack
-                </a>{" "}
-                in any way or form.
+                </a>{"."}
               </div>
-              <div>
-                First made by{" "}
-                <a
-                  href="https://twitter.com/paracycle"
-                  className="font-bold underline hover:no-underline"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Ufuk Kayserilioglu
-                </a>{" "}
-                and forked by{" "}
+              <div className="text-center lg:text-right">
+                Forked and furthered by{" "}
                 <a
                   href="https://twitter.com/michaelfromyeg"
                   className="font-bold underline hover:no-underline"
@@ -68,8 +56,7 @@ export function Layout({ children }: LayoutProps) {
                   rel="noopener noreferrer"
                 >
                   Michael DeMarco
-                </a>
-                {`.`}
+                </a>{"."}
               </div>
             </div>
           </main>
