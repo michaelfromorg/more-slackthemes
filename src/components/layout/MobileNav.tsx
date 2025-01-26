@@ -26,7 +26,10 @@ export function MobileNav() {
           <Menu className="h-6 w-6" />
         </Button>
       </SheetTrigger>
-      <SheetContent side="left" className="p-0 w-72">
+      <SheetContent side="left" className="p-0 w-72" style={{
+        backgroundColor: parsedColors.columnBg,
+        border: 'none'
+      }}>
         <ChannelSidebar />
       </SheetContent>
     </Sheet>

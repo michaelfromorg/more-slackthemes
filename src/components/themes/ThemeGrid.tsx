@@ -78,7 +78,7 @@ export function ThemeGrid() {
       >
         <List
           height={Math.min(
-            window.innerHeight - 200,
+            window?.innerHeight - 200,
             rowCount * (THEME_CARD_HEIGHT + GRID_GAP)
           )}
           itemCount={rowCount}

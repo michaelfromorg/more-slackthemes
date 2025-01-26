@@ -1,6 +1,6 @@
 import useThemeStore from "@/store/theme-store";
 import { Plus } from "lucide-react";
-import Image from "next/image";
+import Avatar from "./Avatar";
 
 export function TeamSidebar() {
   const { currentTheme } = useThemeStore();
@@ -12,16 +12,15 @@ export function TeamSidebar() {
       style={{ backgroundColor: parsedColors.menuBg }}
     >
       {/* Main workspace icon */}
-      <WorkspaceButton src="/favicon-32.png" alt="Slack Themes" active={true} />
+      <WorkspaceButton name="Slack Themes" active={true} />
 
       {/* Example workspace icons */}
       <WorkspaceButton
-        src="/images/pied-piper.jpg"
-        alt="Pied Piper"
+        name="Pied Piper"
         notifications={1}
       />
 
-      <WorkspaceButton src="/images/rubytr.png" alt="Ruby Turkey" />
+      <WorkspaceButton name="Ruby Team" />
 
       {/* Add workspace button */}
       <button
@@ -38,15 +37,13 @@ export function TeamSidebar() {
 }
 
 interface WorkspaceButtonProps {
-  src: string;
-  alt: string;
+  name: string;
   active?: boolean;
   notifications?: number;
 }
 
 function WorkspaceButton({
-  src,
-  alt,
+  name,
   active,
   notifications,
 }: WorkspaceButtonProps) {
@@ -56,18 +53,19 @@ function WorkspaceButton({
   return (
     <div className="relative">
       <button
-        className={`w-8 h-8 rounded relative flex items-center justify-center ${active ? "border-2" : ""
+        className={`w-8 h-8 rounded relative flex items-center justify-center ${active ? "border-2 p-0.5" : ""
           } hover:opacity-80`}
         style={{
           borderColor: active ? parsedColors.textColor : "transparent",
         }}
       >
-        <Image src={src} alt={alt} width={32} height={32} className="rounded" />
+        <div className="w-full h-full rounded overflow-hidden">
+          <Avatar name={name} size={active ? 28 : 32} />
+        </div>
       </button>
-
       {notifications && (
         <div
-          className="absolute -bottom-1 -right-1 min-w-[18px] h-[18px] rounded-full flex items-center justify-center text-xs font-bold px-1"
+          className="absolute -top-2 -right-2 min-w-[18px] h-[18px] rounded-full flex items-center justify-center text-xs font-bold px-1"
           style={{
             backgroundColor: parsedColors.mentionBadge,
             color: "#FFFFFF",

@@ -1,6 +1,6 @@
 import useThemeStore from "@/store/theme-store";
 import { ChevronDown, Hash, MessageSquarePlus, Plus } from "lucide-react";
-import Image from "next/image";
+import Avatar from "./Avatar";
 import { TopSidebarSections } from "./SidebarSection";
 
 export function ChannelSidebar() {
@@ -44,25 +44,21 @@ export function ChannelSidebar() {
         <SidebarSection title="Direct messages">
           <DirectMessageItem
             name="Slackbot"
-            src="/images/slackbot.jpeg"
             isBot={true}
           />
           <DirectMessageItem
-            name="ufuk"
-            src="/images/profile.jpg"
+            name="michael"
             isActive={true}
             isYou={true}
           />
-          <DirectMessageItem name="jack" src="/images/jack.jpg" />
+          <DirectMessageItem name="sam a" />
           <DirectMessageItem
-            name="jane"
-            src="/images/jane.jpg"
+            name="elon m"
             isDND={true}
             notifications={10}
           />
           <DirectMessageItem
-            name="hanna"
-            src="/images/hanna.jpg"
+            name="don t"
             isActive={true}
           />
           <button
@@ -140,10 +136,8 @@ function ChannelItem({ name, active, notifications }: ChannelItemProps) {
 
 interface DirectMessageItemProps {
   name: string;
-  src: string;
   isBot?: boolean;
   isActive?: boolean;
-  // isAway?: boolean;
   isDND?: boolean;
   isYou?: boolean;
   notifications?: number;
@@ -151,7 +145,6 @@ interface DirectMessageItemProps {
 
 function DirectMessageItem({
   name,
-  src,
   isBot,
   isActive,
   isDND,
@@ -168,13 +161,7 @@ function DirectMessageItem({
     >
       <div className="flex items-center gap-2">
         <div className="relative">
-          <Image
-            src={src}
-            alt={name}
-            width={20}
-            height={20}
-            className="rounded"
-          />
+          <Avatar name={name} size={20} />
           {!isBot && (
             <div
               className="absolute bottom-0 right-0 w-2 h-2 rounded-full border-2"

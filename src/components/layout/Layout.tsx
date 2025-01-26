@@ -2,6 +2,7 @@
 
 import useThemeStore from "@/store/theme-store";
 import chroma from "chroma-js";
+import { useEffect } from "react";
 import { ChannelSidebar } from "./ChannelSidebar";
 import { TeamSidebar } from "./TeamSidebar";
 import { TopNav } from "./TopNav";
@@ -11,8 +12,12 @@ interface LayoutProps {
 }
 
 export function Layout({ children }: LayoutProps) {
-  const { currentTheme } = useThemeStore();
+  const { currentTheme, initializeFromUrl } = useThemeStore();
   const { parsedColors } = currentTheme;
+
+  useEffect(() => {
+    initializeFromUrl();
+  }, []);
 
   return (
     <div className="h-screen flex flex-col">
