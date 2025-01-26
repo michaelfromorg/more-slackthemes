@@ -11,12 +11,28 @@ import {
   User,
   X,
 } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export function TopNav() {
   const { currentTheme, searchQuery, setSearchQuery } = useThemeStore();
   const { parsedColors } = currentTheme;
   const [isFocused, setIsFocused] = useState(false);
+  const searchInputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if ((event.metaKey || event.ctrlKey) && event.key === 'k') {
+        event.preventDefault();
+        searchInputRef.current?.focus();
+      } else if (event.key === 'Escape' && document.activeElement === searchInputRef.current) {
+        searchInputRef.current?.blur();
+        setSearchQuery('');
+      }
+    };
+
+    document.addEventListener('keydown', handleKeyDown);
+    return () => document.removeEventListener('keydown', handleKeyDown);
+  }, []);
 
   return (
     <div
@@ -27,10 +43,8 @@ export function TopNav() {
         borderColor: chroma(parsedColors.textColor).alpha(0.1).css(),
       }}
     >
-      {/* Left spacer */}
       <div className="w-60" />
 
-      {/* Center section with navigation, clock and search */}
       <div className="flex-1 flex justify-center items-center">
         <div className="flex items-center gap-1 mr-2">
           <button
@@ -57,8 +71,7 @@ export function TopNav() {
         </button>
 
         <div
-          className={`flex items-center w-[720px] h-8 px-3 rounded text-sm relative ${isFocused ? "ring-1 ring-white/30" : ""
-            }`}
+          className={`flex items-center w-[720px] h-8 px-3 rounded text-sm relative ${isFocused ? "ring-1 ring-white/30" : ""}`}
           style={{
             backgroundColor: chroma(parsedColors.textColor).alpha(0.05).css(),
             color: parsedColors.textColor,
@@ -69,9 +82,10 @@ export function TopNav() {
             style={{ opacity: isFocused ? 1 : 0.5 }}
           />
           <input
+            ref={searchInputRef}
             type="text"
             className="flex-1 bg-transparent outline-none placeholder:text-inherit placeholder:opacity-50"
-            placeholder="Search Slack Themes"
+            placeholder="Search themes... (CTRL-K)"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             onFocus={() => setIsFocused(true)}
@@ -89,8 +103,7 @@ export function TopNav() {
         </div>
       </div>
 
-      {/* Right side */}
-      <div className="w-60 flex items-center gap-2 justify-end">
+      <div className="w-80 flex items-center gap-2 justify-end">
         <a
           href={NOTION_FORM_URL}
           target="_blank"
@@ -99,7 +112,7 @@ export function TopNav() {
           style={{ color: parsedColors.textColor }}
         >
           <PlusCircle className="w-4 h-4" />
-          <span className="text-sm">Submit Theme</span>
+          <span className="text-sm">Submit a new theme!</span>
           <span className="absolute -bottom-8 left-1/2 -translate-x-1/2 px-2 py-1 bg-black text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
             Add your theme to the collection
           </span>
