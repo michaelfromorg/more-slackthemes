@@ -55,7 +55,7 @@ export function ThemeGrid() {
         gap: GRID_GAP,
         marginBottom: GRID_GAP,
       }}>
-        {rowThemes.map((theme, i) => (
+        {rowThemes.map((theme) => (
           <div key={theme.slug} style={{ width: columnWidth }}>
             <ThemePreview theme={theme} />
           </div>

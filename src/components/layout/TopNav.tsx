@@ -28,7 +28,7 @@ export function TopNav() {
 
     document.addEventListener('keydown', handleKeyDown);
     return () => document.removeEventListener('keydown', handleKeyDown);
-  }, []);
+  }, [setSearchQuery]);
 
   return (
     <div

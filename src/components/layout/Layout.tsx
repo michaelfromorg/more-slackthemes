@@ -17,7 +17,7 @@ export function Layout({ children }: LayoutProps) {
 
   useEffect(() => {
     initializeFromUrl();
-  }, []);
+  }, [initializeFromUrl]);
 
   return (
     <div className="h-screen flex flex-col">
