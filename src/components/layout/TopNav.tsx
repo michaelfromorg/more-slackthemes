@@ -1,3 +1,4 @@
+import { NOTION_FORM_URL } from "@/lib/constants";
 import useThemeStore from "@/store/theme-store";
 import chroma from "chroma-js";
 import {
@@ -5,6 +6,7 @@ import {
   ChevronRight,
   Clock,
   HelpCircle,
+  PlusCircle,
   Search,
   User,
   X,
@@ -55,9 +57,8 @@ export function TopNav() {
         </button>
 
         <div
-          className={`flex items-center w-[720px] h-8 px-3 rounded text-sm relative ${
-            isFocused ? "ring-1 ring-white/30" : ""
-          }`}
+          className={`flex items-center w-[720px] h-8 px-3 rounded text-sm relative ${isFocused ? "ring-1 ring-white/30" : ""
+            }`}
           style={{
             backgroundColor: chroma(parsedColors.textColor).alpha(0.05).css(),
             color: parsedColors.textColor,
@@ -90,6 +91,19 @@ export function TopNav() {
 
       {/* Right side */}
       <div className="w-60 flex items-center gap-2 justify-end">
+        <a
+          href={NOTION_FORM_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group relative flex items-center gap-2 px-3 py-1.5 rounded hover:bg-black/10"
+          style={{ color: parsedColors.textColor }}
+        >
+          <PlusCircle className="w-4 h-4" />
+          <span className="text-sm">Submit Theme</span>
+          <span className="absolute -bottom-8 left-1/2 -translate-x-1/2 px-2 py-1 bg-black text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+            Add your theme to the collection
+          </span>
+        </a>
         <button
           className="p-2 rounded hover:bg-black/10"
           style={{ color: parsedColors.textColor }}
