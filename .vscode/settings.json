@@ -5,5 +5,9 @@
     "source.sortImports": "explicit",
     "source.organizeImports": "explicit",
     "source.organizeLinkDefinitions": "explicit"
+  },
+  "files.insertFinalNewline": true,
+  "files.associations": {
+    "CNAME": "plaintext"
   }
 }
