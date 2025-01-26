@@ -8,8 +8,8 @@ export function TeamSidebar() {
 
   return (
     <div
-      className="flex flex-col items-center w-12 py-3 space-y-4"
-      style={{ backgroundColor: parsedColors.menuBg }} // Changed from columnBg to menuBg
+      className="flex flex-col items-center w-12 py-3 space-y-4 h-full"
+      style={{ backgroundColor: parsedColors.menuBg }}
     >
       {/* Main workspace icon */}
       <WorkspaceButton src="/favicon-32.png" alt="Slack Themes" active={true} />
@@ -56,9 +56,8 @@ function WorkspaceButton({
   return (
     <div className="relative">
       <button
-        className={`w-8 h-8 rounded relative flex items-center justify-center ${
-          active ? "border-2" : ""
-        } hover:opacity-80`}
+        className={`w-8 h-8 rounded relative flex items-center justify-center ${active ? "border-2" : ""
+          } hover:opacity-80`}
         style={{
           borderColor: active ? parsedColors.textColor : "transparent",
         }}

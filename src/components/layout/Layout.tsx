@@ -18,12 +18,11 @@ export function Layout({ children }: LayoutProps) {
     <div className="h-screen flex flex-col">
       <TopNav />
       <div className="flex-1 flex min-h-0">
-        <div className="hidden lg:block">
+        <div className="hidden lg:block h-full">
           <TeamSidebar />
         </div>
-
         <div className="flex-1 flex min-w-0">
-          <div className="hidden lg:block">
+          <div className="hidden lg:block h-full">
             <ChannelSidebar />
           </div>
 
