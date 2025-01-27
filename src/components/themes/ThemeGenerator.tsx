@@ -161,7 +161,7 @@ export function ThemeGenerator({ open, onOpenChange }: ThemeGeneratorProps) {
           </div>
           <p className="text-xs text-muted-foreground">
             Upload your workspace logo (max 5MB) to automatically generate a
-            matching Slack theme. The generator will analyze your logo's
+            matching Slack theme. The generator will analyze your logo{`'`}s
             colors to create a harmonious theme. Results may vary, a lot!
           </p>
         </div>
