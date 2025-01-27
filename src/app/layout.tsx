@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   },
   manifest: "/site.webmanifest",
   // Optional: Add theme color to match your app's theme
-  themeColor: "#ffffff",
+  // themeColor: "#ffffff",
   // Optional: Add Apple web app status bar style
   appleWebApp: {
     statusBarStyle: "default",

@@ -14,6 +14,20 @@ export interface SlackTheme {
   tags?: string[];
 }
 
+export interface ParsedThemeColors {
+  columnBg: string;
+  menuBg: string;
+  activeItem: string;
+  activeItemText: string;
+  hoverItem: string;
+  textColor: string;
+  activePresence: string;
+  mentionBadge: string;
+
+  topNavBg?: string;
+  topNavText: string;
+}
+
 // Processed theme with parsed colors
 export interface Theme {
   name: string;
@@ -21,15 +35,5 @@ export interface Theme {
   colors: string;
   submitter?: Submitter;
   tags?: string[];
-  parsedColors: {
-    columnBg: string;
-    menuBg: string;
-    activeItem: string;
-    activeItemText: string;
-    hoverItem: string;
-    textColor: string;
-    activePresence: string;
-    mentionBadge: string;
-    topNavText: string;
-  };
+  parsedColors: ParsedThemeColors;
 }

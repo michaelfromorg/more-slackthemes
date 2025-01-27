@@ -16,6 +16,7 @@ export function parseThemeColors(colors: string): ParsedThemeColors {
     textColor: colorArray[5],
     activePresence: colorArray[6],
     mentionBadge: colorArray[7],
+    // TODO(michaelfromyeg): are these real?
     topNavBg: menuBg, // Match workspace switcher background
     topNavText: colorArray[5], // Use main text color
   };
