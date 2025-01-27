@@ -34,7 +34,7 @@ export function ThemeGrid() {
     let newIndex = currentIndex;
     const lastIndex = filteredThemes.length - 1;
     const isLastRow = Math.floor(currentIndex / columnCount) === Math.floor(lastIndex / columnCount);
-    const remainingInLastRow = filteredThemes.length % columnCount || columnCount;
+    // const remainingInLastRow = filteredThemes.length % columnCount || columnCount;
 
     switch (e.key) {
       case 'ArrowLeft':
