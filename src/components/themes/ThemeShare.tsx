@@ -48,7 +48,7 @@ export function ThemeShare() {
           className="shrink-0 bg-[#4A154B] hover:bg-[#611f69] text-white"
           icon={<ExternalLink className="w-4 h-4" />}
         >
-          Open in Slack
+          Copy & Go to Slack
         </ResponsiveButton>
         <ResponsiveButton
           variant="outline"
