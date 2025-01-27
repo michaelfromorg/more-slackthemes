@@ -30,8 +30,8 @@ export default function NotFound() {
                 <span className="text-sm text-gray-500">4:04 PM</span>
               </div>
               <div className="mt-1 space-y-2 text-left">
-                <p>👋 Hey there! Looks like you've wandered into uncharted territory.</p>
-                <p>The page you're looking for seems to have gone for a coffee break. Maybe it's having a meeting with /dev/null? 🤔</p>
+                <p>👋 Hey there! Looks like you{`'`}ve wandered into uncharted territory.</p>
+                <p>The page you{`'`}re looking for seems to have gone for a coffee break. Maybe it{`'`}s having a meeting with /dev/null? 🤔</p>
               </div>
             </div>
           </div>
