@@ -12,12 +12,32 @@ export function ThemeGrid() {
   const [columnCount, setColumnCount] = useState(4);
   const [containerWidth, setContainerWidth] = useState(0);
   const [containerRef, setContainerRef] = useState<HTMLDivElement | null>(null);
+  const [listHeight, setListHeight] = useState<number>(800);
+
+  useEffect(() => {
+    const updateListHeight = () => {
+      if (typeof window !== 'undefined') {
+        setListHeight(Math.min(
+          window.innerHeight - 200,
+          Math.ceil(filteredThemes.length / columnCount) * (THEME_CARD_HEIGHT + GRID_GAP)
+        ));
+      }
+    };
+
+    updateListHeight();
+
+    if (typeof window !== 'undefined') {
+      window.addEventListener('resize', updateListHeight);
+      return () => window.removeEventListener('resize', updateListHeight);
+    }
+  }, [columnCount, filteredThemes.length]);
 
   useEffect(() => {
     if (!containerRef) return;
 
     const updateColumnCount = () => {
-      const width = containerRef.offsetWidth - 32; // Account for container padding
+      // Account for container padding
+      const width = containerRef.offsetWidth - 32;
       setContainerWidth(width);
 
       if (width < 768) setColumnCount(1);
@@ -76,19 +96,18 @@ export function ThemeGrid() {
           if (theme) setCurrentTheme(theme);
         }}
       >
-        <List
-          height={Math.min(
-            window?.innerHeight - 200,
-            rowCount * (THEME_CARD_HEIGHT + GRID_GAP)
-          )}
-          itemCount={rowCount}
-          itemSize={THEME_CARD_HEIGHT + GRID_GAP}
-          width={containerWidth}
-          style={{ overflow: 'auto' }}
-          overscanCount={5}
-        >
-          {Row}
-        </List>
+        {containerWidth > 0 && (
+          <List
+            height={listHeight}
+            itemCount={rowCount}
+            itemSize={THEME_CARD_HEIGHT + GRID_GAP}
+            width={containerWidth}
+            style={{ overflow: 'auto' }}
+            overscanCount={5}
+          >
+            {Row}
+          </List>
+        )}
       </RadioGroup>
     </div>
   );
