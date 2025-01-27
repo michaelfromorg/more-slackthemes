@@ -1,22 +1,35 @@
+// types/theme.ts
+
+// Submitter information
+interface Submitter {
+  name: string;
+  link?: string;
+}
+
+// Raw theme data from YAML/JSON
 export interface SlackTheme {
   name: string;
   colors: string; // Comma-separated color values
+  submitter?: Submitter;
+  tags?: string[];
 }
 
-export interface ParsedThemeColors {
-  columnBg: string; // Main sidebar background
-  menuBg: string; // Workspace switcher and top nav background
-  activeItem: string;
-  activeItemText: string;
-  hoverItem: string;
-  textColor: string;
-  activePresence: string;
-  mentionBadge: string;
-  topNavBg: string;
-  topNavText: string;
-}
-
-export interface Theme extends SlackTheme {
+// Processed theme with parsed colors
+export interface Theme {
+  name: string;
   slug: string;
-  parsedColors: ParsedThemeColors;
+  colors: string;
+  submitter?: Submitter;
+  tags?: string[];
+  parsedColors: {
+    columnBg: string;
+    menuBg: string;
+    activeItem: string;
+    activeItemText: string;
+    hoverItem: string;
+    textColor: string;
+    activePresence: string;
+    mentionBadge: string;
+    topNavText: string;
+  };
 }

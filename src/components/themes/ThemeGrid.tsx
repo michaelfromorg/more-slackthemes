@@ -4,8 +4,9 @@ import { useEffect, useState } from 'react';
 import { FixedSizeList as List } from 'react-window';
 import { ThemePreview } from "./ThemePreview";
 
-const THEME_CARD_HEIGHT = 131;
+const THEME_CARD_HEIGHT = 180;
 const GRID_GAP = 16;
+const ROW_HEIGHT = THEME_CARD_HEIGHT + GRID_GAP; // Include gap in row height
 
 export function ThemeGrid() {
   const { filteredThemes, currentTheme, setCurrentTheme, searchQuery } = useThemeStore();
@@ -17,10 +18,9 @@ export function ThemeGrid() {
   useEffect(() => {
     const updateListHeight = () => {
       if (typeof window !== 'undefined') {
-        setListHeight(Math.min(
-          window.innerHeight - 200,
-          Math.ceil(filteredThemes.length / columnCount) * (THEME_CARD_HEIGHT + GRID_GAP)
-        ));
+        const totalRows = Math.ceil(filteredThemes.length / columnCount);
+        const totalHeight = totalRows * ROW_HEIGHT - GRID_GAP; // Subtract last row's gap
+        setListHeight(Math.min(window.innerHeight - 200, totalHeight));
       }
     };
 
@@ -68,13 +68,17 @@ export function ThemeGrid() {
     const startIndex = index * columnCount;
     const rowThemes = filteredThemes.slice(startIndex, startIndex + columnCount);
 
+    // Apply padding to the row's style to create the gap
+    const rowStyle = {
+      ...style,
+      height: THEME_CARD_HEIGHT,
+      display: 'flex',
+      gap: GRID_GAP,
+      paddingBottom: GRID_GAP // This creates the vertical gap
+    };
+
     return (
-      <div style={{
-        ...style,
-        display: 'flex',
-        gap: GRID_GAP,
-        marginBottom: GRID_GAP,
-      }}>
+      <div style={rowStyle}>
         {rowThemes.map((theme) => (
           <div key={theme.slug} style={{ width: columnWidth }}>
             <ThemePreview theme={theme} />
@@ -100,7 +104,7 @@ export function ThemeGrid() {
           <List
             height={listHeight}
             itemCount={rowCount}
-            itemSize={THEME_CARD_HEIGHT + GRID_GAP}
+            itemSize={ROW_HEIGHT}
             width={containerWidth}
             style={{ overflow: 'auto' }}
             overscanCount={5}
