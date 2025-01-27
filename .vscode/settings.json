@@ -9,5 +9,6 @@
   "files.insertFinalNewline": true,
   "files.associations": {
     "CNAME": "plaintext"
-  }
+  },
+  "cSpell.words": ["michaelfromorg", "shadcn", "slackthemes"]
 }
