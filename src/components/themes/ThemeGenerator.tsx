@@ -5,6 +5,7 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog";
+import { useThemeAnalytics } from "@/hooks/useThemeAnalytics";
 import { processTheme } from "@/lib/theme-utils";
 import useThemeStore from "@/store/theme-store";
 import chroma from "chroma-js";
@@ -50,12 +51,14 @@ function generateTheme(colors: any) {
   );
 
   const columnBg = darkColors[0]?.hex() || "#1a1d21";
-  const menuBg = darkColors[Math.floor(darkColors.length / 2)]?.hex() || "#1a1d21";
+  const menuBg =
+    darkColors[Math.floor(darkColors.length / 2)]?.hex() || "#1a1d21";
   const activeItem = midColors[0]?.hex() || "#4a154b";
   const activeItemText = "#FFFFFF";
   const hoverItem = chroma(activeItem).brighten().hex();
   const textColor = "#FFFFFF";
-  const activePresence = midColors[Math.floor(midColors.length / 2)]?.hex() || "#007a5a";
+  const activePresence =
+    midColors[Math.floor(midColors.length / 2)]?.hex() || "#007a5a";
   const mentionBadge = midColors[midColors.length - 1]?.hex() || "#dc2626";
 
   return [
@@ -76,6 +79,7 @@ interface ThemeGeneratorProps {
 }
 
 export function ThemeGenerator({ open, onOpenChange }: ThemeGeneratorProps) {
+  const { trackThemeView } = useThemeAnalytics();
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const { setCurrentTheme } = useThemeStore();
@@ -107,6 +111,7 @@ export function ThemeGenerator({ open, onOpenChange }: ThemeGeneratorProps) {
           });
 
           setCurrentTheme(newTheme);
+          trackThemeView(newTheme);
           onOpenChange(false);
         } catch (error) {
           console.error("Error generating theme:", error);

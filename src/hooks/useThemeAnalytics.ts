@@ -44,7 +44,7 @@ export function useThemeAnalytics() {
 
     // Track as a conversion
     window.gtag("event", "conversion", {
-      send_to: "G-XXXXXXXX", // Replace with your GA4 measurement ID
+      send_to: "G-JXC4LZFZCH", // Replace with your GA4 measurement ID
       theme_name: theme.name,
     });
   }, []);

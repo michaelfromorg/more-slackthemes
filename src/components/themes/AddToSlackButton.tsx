@@ -1,25 +1,29 @@
-import { Button } from '@/components/ui/button';
-import useThemeStore from '@/store/theme-store';
-import { ExternalLink } from 'lucide-react';
-import { useCallback } from 'react';
+import { Button } from "@/components/ui/button";
+import { useThemeAnalytics } from "@/hooks/useThemeAnalytics";
+import useThemeStore from "@/store/theme-store";
+import { ExternalLink } from "lucide-react";
+import { useCallback } from "react";
 
 interface AddToSlackButtonProps {
   className?: string;
 }
 
 export function AddToSlackButton({ className }: AddToSlackButtonProps) {
-  const { getCurrentThemeString } = useThemeStore();
+  const { trackThemeApply } = useThemeAnalytics();
+  const { getCurrentThemeString, currentTheme } = useThemeStore();
 
   const handleAddToSlack = useCallback(async () => {
     try {
       // Copy theme string
       await navigator.clipboard.writeText(getCurrentThemeString());
       // Open Slack
-      window.location.href = 'slack://open';
+      window.location.href = "slack://open";
+
+      trackThemeApply(currentTheme);
     } catch (err) {
-      console.error('Failed to copy text:', err);
+      console.error("Failed to copy text:", err);
     }
-  }, [getCurrentThemeString]);
+  }, [currentTheme, getCurrentThemeString, trackThemeApply]);
 
   return (
     <Button

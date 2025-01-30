@@ -15,10 +15,7 @@ export function TeamSidebar() {
       <WorkspaceButton name="Slack Themes" active={true} />
 
       {/* Example workspace icons */}
-      <WorkspaceButton
-        name="Pied Piper"
-        notifications={1}
-      />
+      <WorkspaceButton name="Pied Piper" notifications={1} />
 
       <WorkspaceButton name="Ruby Team" />
 
@@ -53,8 +50,9 @@ function WorkspaceButton({
   return (
     <div className="relative">
       <button
-        className={`w-8 h-8 rounded relative flex items-center justify-center ${active ? "border-2 p-0.5" : ""
-          } hover:opacity-80`}
+        className={`w-8 h-8 rounded relative flex items-center justify-center ${
+          active ? "border-2" : ""
+        } hover:opacity-80`}
         style={{
           borderColor: active ? parsedColors.textColor : "transparent",
         }}

@@ -4,8 +4,10 @@ import Avatar from "./Avatar";
 import { TopSidebarSections } from "./SidebarSection";
 
 export function ChannelSidebar() {
-  const { currentTheme } = useThemeStore();
+  const { currentTheme, activeTag, getAllTags, getTagCount, setActiveTag } =
+    useThemeStore();
   const { parsedColors } = currentTheme;
+  const allTags = getAllTags();
 
   return (
     <div
@@ -29,108 +31,116 @@ export function ChannelSidebar() {
 
       {/* Sidebar Content */}
       <div className="flex-1 overflow-y-auto custom-scrollbar">
-        <SidebarSection title="Channels">
-          <ChannelItem name="general" active={true} />
-          <ChannelItem name="random" notifications={3} />
+        {/* Theme Categories Section */}
+        <div className="mb-6">
           <button
-            className="w-full px-2 py-1 text-sm flex items-center gap-2 rounded hover:bg-black/5"
-            style={{ color: `${parsedColors.textColor}99` }}
+            className="w-full px-2 py-1 text-sm flex items-center justify-between hover:brightness-95"
+            style={{ color: parsedColors.textColor }}
           >
-            <Plus className="w-4 h-4" />
-            Add channels
+            <span>Channels</span>
+            <ChevronDown className="w-3 h-3" />
           </button>
-        </SidebarSection>
+          <div className="mt-1 space-y-0.5">
+            {/* General (No filter) */}
+            <button
+              className="w-full px-2 py-1 text-sm flex items-center justify-between hover:brightness-95"
+              style={{
+                backgroundColor:
+                  activeTag === "general" ? parsedColors.activeItem : undefined,
+                color:
+                  activeTag === "general"
+                    ? parsedColors.activeItemText
+                    : parsedColors.textColor,
+              }}
+              onClick={() => setActiveTag("general")}
+            >
+              <div className="flex items-center gap-2">
+                <Hash className="w-4 h-4" />
+                <span>general</span>
+              </div>
+              {activeTag !== "general" && (
+                <span
+                  className="px-1.5 py-0.5 rounded text-xs font-bold"
+                  style={{
+                    backgroundColor:
+                      activeTag === "general"
+                        ? undefined
+                        : parsedColors.mentionBadge,
+                    color: "#FFFFFF",
+                  }}
+                >
+                  {getTagCount("general")}
+                </span>
+              )}
+            </button>
 
-        <SidebarSection title="Direct messages">
-          <DirectMessageItem
-            name="Slackbot"
-            isBot={true}
-          />
-          <DirectMessageItem
-            name="michael"
-            isActive={true}
-            isYou={true}
-          />
-          <DirectMessageItem name="sam a" />
-          <DirectMessageItem
-            name="elon m"
-            isDND={true}
-            notifications={10}
-          />
-          <DirectMessageItem
-            name="don t"
-            isActive={true}
-          />
+            {/* Tag Filters */}
+            {allTags
+              .sort((a, b) => getTagCount(b) - getTagCount(a))
+              .map((tag) => (
+                <button
+                  key={tag}
+                  className="w-full px-2 py-1 text-sm flex items-center justify-between hover:brightness-95"
+                  style={{
+                    backgroundColor:
+                      activeTag === tag
+                        ? parsedColors.activeItem
+                        : "transparent",
+                    color:
+                      activeTag === tag
+                        ? parsedColors.activeItemText
+                        : parsedColors.textColor,
+                  }}
+                  onClick={() => setActiveTag(tag)}
+                >
+                  <div className="flex items-center gap-2">
+                    <Hash className="w-4 h-4" />
+                    <span>{tag}</span>
+                  </div>
+                  {activeTag !== tag && (
+                    <span
+                      className="px-1.5 py-0.5 rounded text-xs font-bold"
+                      style={{
+                        backgroundColor:
+                          activeTag === tag
+                            ? undefined
+                            : parsedColors.mentionBadge,
+                        color: "#FFFFFF",
+                      }}
+                    >
+                      {getTagCount(tag)}
+                    </span>
+                  )}
+                </button>
+              ))}
+          </div>
+        </div>
+
+        {/* Direct Messages Section */}
+        <div className="mb-6">
           <button
-            className="w-full px-2 py-1 text-sm flex items-center gap-2 rounded hover:bg-black/5"
-            style={{ color: `${parsedColors.textColor}99` }}
+            className="w-full px-2 py-1 text-sm flex items-center justify-between hover:brightness-95"
+            style={{ color: parsedColors.textColor }}
           >
-            <Plus className="w-4 h-4" />
-            Add teammates
+            <span>Direct messages</span>
+            <ChevronDown className="w-3 h-3" />
           </button>
-        </SidebarSection>
+          <div className="mt-1 space-y-0.5">
+            <DirectMessageItem name="Slackbot" isBot={true} />
+            <DirectMessageItem name="michael" isActive={true} isYou={true} />
+            <DirectMessageItem name="sam a" />
+            <DirectMessageItem name="elon m" isDND={true} notifications={10} />
+            <button
+              className="w-full px-2 py-1 text-sm flex items-center gap-2 hover:bg-black/5"
+              style={{ color: `${parsedColors.textColor}99` }}
+            >
+              <Plus className="w-4 h-4" />
+              Add teammates
+            </button>
+          </div>
+        </div>
       </div>
     </div>
-  );
-}
-
-interface SidebarSectionProps {
-  title: string;
-  children: React.ReactNode;
-}
-
-function SidebarSection({ title, children }: SidebarSectionProps) {
-  const { currentTheme } = useThemeStore();
-  const { parsedColors } = currentTheme;
-
-  return (
-    <div className="mb-6">
-      <button
-        className="w-full px-2 py-1 text-sm flex items-center justify-between hover:brightness-95"
-        style={{ color: parsedColors.textColor }}
-      >
-        <span>{title}</span>
-        <ChevronDown className="w-3 h-3" />
-      </button>
-      <div className="mt-1 space-y-0.5">{children}</div>
-    </div>
-  );
-}
-
-interface ChannelItemProps {
-  name: string;
-  active?: boolean;
-  notifications?: number;
-}
-
-function ChannelItem({ name, active, notifications }: ChannelItemProps) {
-  const { currentTheme } = useThemeStore();
-  const { parsedColors } = currentTheme;
-
-  return (
-    <button
-      className="w-full px-2 py-1 text-sm flex items-center justify-between rounded group"
-      style={{
-        backgroundColor: active ? parsedColors.activeItem : "transparent",
-        color: active ? parsedColors.activeItemText : parsedColors.textColor,
-      }}
-    >
-      <div className="flex items-center gap-2">
-        <Hash className="w-4 h-4" />
-        <span>{name}</span>
-      </div>
-      {notifications && (
-        <span
-          className="px-1.5 py-0.5 rounded text-xs font-bold"
-          style={{
-            backgroundColor: active ? undefined : parsedColors.mentionBadge,
-            color: "#FFFFFF",
-          }}
-        >
-          {notifications}
-        </span>
-      )}
-    </button>
   );
 }
 
@@ -156,7 +166,7 @@ function DirectMessageItem({
 
   return (
     <button
-      className="w-full px-2 py-1 text-sm flex items-center justify-between rounded hover:bg-black/5"
+      className="w-full px-2 py-1 text-sm flex items-center justify-between hover:bg-black/5"
       style={{ color: parsedColors.textColor }}
     >
       <div className="flex items-center gap-2">
@@ -169,8 +179,8 @@ function DirectMessageItem({
                 backgroundColor: isActive
                   ? parsedColors.activePresence
                   : isDND
-                    ? "#F40B0B"
-                    : "#949494",
+                  ? "#F40B0B"
+                  : "#949494",
                 borderColor: parsedColors.columnBg,
               }}
             />

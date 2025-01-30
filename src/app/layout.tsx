@@ -1,3 +1,4 @@
+import { GoogleAnalytics } from "@/components/layout/GoogleAnalytics";
 import { Layout } from "@/components/layout/Layout";
 import { lato } from "@/lib/fonts";
 import type { Metadata } from "next";
@@ -17,9 +18,6 @@ export const metadata: Metadata = {
     ],
   },
   manifest: "/site.webmanifest",
-  // Optional: Add theme color to match your app's theme
-  // themeColor: "#ffffff",
-  // Optional: Add Apple web app status bar style
   appleWebApp: {
     statusBarStyle: "default",
     title: "Slack Themes",
@@ -35,6 +33,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${lato.variable} font-sans`}>
         <Layout>{children}</Layout>
+        <GoogleAnalytics />
       </body>
     </html>
   );

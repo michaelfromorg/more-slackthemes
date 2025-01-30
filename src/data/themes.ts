@@ -73,7 +73,7 @@ const rawThemes: SlackTheme[] = [
       name: "paracycle",
       link: "https://github.com/paracycle/slackthemes",
     },
-    tags: ["paracycle"],
+    tags: ["paracycle", "schools"],
   },
   {
     name: "Big Red",
@@ -100,7 +100,7 @@ const rawThemes: SlackTheme[] = [
       name: "paracycle",
       link: "https://github.com/paracycle/slackthemes",
     },
-    tags: ["paracycle"],
+    tags: ["paracycle", "mlb"],
   },
   {
     name: "Citrus",
@@ -118,7 +118,7 @@ const rawThemes: SlackTheme[] = [
       name: "paracycle",
       link: "https://github.com/paracycle/slackthemes",
     },
-    tags: ["paracycle"],
+    tags: ["paracycle", "schools"],
   },
   {
     name: "WeAreLATech",
@@ -208,7 +208,7 @@ const rawThemes: SlackTheme[] = [
       name: "paracycle",
       link: "https://github.com/paracycle/slackthemes",
     },
-    tags: ["paracycle"],
+    tags: ["paracycle", "companies"],
   },
   {
     name: "Digital Media Solutions",
@@ -226,7 +226,7 @@ const rawThemes: SlackTheme[] = [
       name: "paracycle",
       link: "https://github.com/paracycle/slackthemes",
     },
-    tags: ["paracycle"],
+    tags: ["paracycle", "companies"],
   },
   {
     name: "Design Hub",
@@ -289,7 +289,7 @@ const rawThemes: SlackTheme[] = [
       name: "paracycle",
       link: "https://github.com/paracycle/slackthemes",
     },
-    tags: ["paracycle"],
+    tags: ["paracycle", "schools"],
   },
   {
     name: "GitLab",
@@ -298,7 +298,7 @@ const rawThemes: SlackTheme[] = [
       name: "paracycle",
       link: "https://github.com/paracycle/slackthemes",
     },
-    tags: ["paracycle"],
+    tags: ["paracycle", "companies"],
   },
   {
     name: "Haunter",
@@ -478,7 +478,7 @@ const rawThemes: SlackTheme[] = [
       name: "paracycle",
       link: "https://github.com/paracycle/slackthemes",
     },
-    tags: ["paracycle"],
+    tags: ["paracycle", "companies"],
   },
   {
     name: "Ochin",
@@ -694,7 +694,7 @@ const rawThemes: SlackTheme[] = [
       name: "paracycle",
       link: "https://github.com/paracycle/slackthemes",
     },
-    tags: ["paracycle"],
+    tags: ["paracycle", "companies"],
   },
   {
     name: "Wedgies",
@@ -775,7 +775,7 @@ const rawThemes: SlackTheme[] = [
       name: "paracycle",
       link: "https://github.com/paracycle/slackthemes",
     },
-    tags: ["paracycle"],
+    tags: ["paracycle", "companies"],
   },
   {
     name: "Kill Bill",
@@ -811,7 +811,7 @@ const rawThemes: SlackTheme[] = [
       name: "paracycle",
       link: "https://github.com/paracycle/slackthemes",
     },
-    tags: ["paracycle"],
+    tags: ["paracycle", "companies"],
   },
   {
     name: "Dropbox",
@@ -820,7 +820,7 @@ const rawThemes: SlackTheme[] = [
       name: "paracycle",
       link: "https://github.com/paracycle/slackthemes",
     },
-    tags: ["paracycle"],
+    tags: ["paracycle", "companies"],
   },
   {
     name: "Spotify",
@@ -829,7 +829,7 @@ const rawThemes: SlackTheme[] = [
       name: "paracycle",
       link: "https://github.com/paracycle/slackthemes",
     },
-    tags: ["paracycle"],
+    tags: ["paracycle", "companies"],
   },
   {
     name: "Light Blue",
@@ -910,7 +910,7 @@ const rawThemes: SlackTheme[] = [
       name: "paracycle",
       link: "https://github.com/paracycle/slackthemes",
     },
-    tags: ["paracycle"],
+    tags: ["paracycle", "companies"],
   },
   {
     name: "Myplanet",
@@ -928,16 +928,16 @@ const rawThemes: SlackTheme[] = [
       name: "paracycle",
       link: "https://github.com/paracycle/slackthemes",
     },
-    tags: ["paracycle"],
+    tags: ["paracycle", "companies"],
   },
   {
-    name: "Youtube",
+    name: "YouTube",
     colors: "#FFFFFF,#CC181E,#CC181E,#FFFFFF,#444444,#0D0D0D,#CC181E,#E04A4D",
     submitter: {
       name: "paracycle",
       link: "https://github.com/paracycle/slackthemes",
     },
-    tags: ["paracycle"],
+    tags: ["paracycle", "companies"],
   },
   {
     name: "Zeplin",
@@ -1039,13 +1039,13 @@ const rawThemes: SlackTheme[] = [
     tags: ["paracycle"],
   },
   {
-    name: "FC Bayern M\u00fcnchen",
+    name: "FC Bayern Munchen",
     colors: "#B51929,#B51929,#23408E,#BCA26F,#025277,#FFFFFF,#E5D3A0,#B7B6B7",
     submitter: {
       name: "paracycle",
       link: "https://github.com/paracycle/slackthemes",
     },
-    tags: ["paracycle"],
+    tags: ["paracycle", "bundesliga"],
   },
   {
     name: "plug.dj",
@@ -1066,7 +1066,7 @@ const rawThemes: SlackTheme[] = [
     tags: ["paracycle"],
   },
   {
-    name: "Github Activity Graph",
+    name: "GitHub Activity Graph",
     colors: "#333333,#222222,#44A340,#FFFFFF,#8CBE65,#FFFFFF,#D6E685,#1E6823",
     submitter: {
       name: "paracycle",
@@ -1075,13 +1075,13 @@ const rawThemes: SlackTheme[] = [
     tags: ["paracycle"],
   },
   {
-    name: "Github",
+    name: "GitHub",
     colors: "#ffffff,#24292e,#e9f0f7,#1d4880,#ffefc6,#666666,#28a745,#92979b",
     submitter: {
       name: "paracycle",
       link: "https://github.com/paracycle/slackthemes",
     },
-    tags: ["paracycle"],
+    tags: ["paracycle", "companies"],
   },
   {
     name: "Retro Monochrome Terminal",
@@ -1153,7 +1153,7 @@ const rawThemes: SlackTheme[] = [
       name: "paracycle",
       link: "https://github.com/paracycle/slackthemes",
     },
-    tags: ["paracycle"],
+    tags: ["paracycle", "companies"],
   },
   {
     name: "Uber Light",
@@ -1162,7 +1162,7 @@ const rawThemes: SlackTheme[] = [
       name: "paracycle",
       link: "https://github.com/paracycle/slackthemes",
     },
-    tags: ["paracycle"],
+    tags: ["paracycle", "companies"],
   },
   {
     name: "Uber Dark",
@@ -1171,7 +1171,7 @@ const rawThemes: SlackTheme[] = [
       name: "paracycle",
       link: "https://github.com/paracycle/slackthemes",
     },
-    tags: ["paracycle"],
+    tags: ["paracycle", "companies"],
   },
   {
     name: "xUnit.net",
@@ -1279,7 +1279,7 @@ const rawThemes: SlackTheme[] = [
       name: "paracycle",
       link: "https://github.com/paracycle/slackthemes",
     },
-    tags: ["paracycle"],
+    tags: ["paracycle", "nfl"],
   },
   {
     name: "Drund",
@@ -1342,7 +1342,7 @@ const rawThemes: SlackTheme[] = [
       name: "paracycle",
       link: "https://github.com/paracycle/slackthemes",
     },
-    tags: ["paracycle"],
+    tags: ["paracycle", "nhl"],
   },
   {
     name: "Dolly Light",
@@ -1396,7 +1396,7 @@ const rawThemes: SlackTheme[] = [
       name: "paracycle",
       link: "https://github.com/paracycle/slackthemes",
     },
-    tags: ["paracycle"],
+    tags: ["paracycle", "companies"],
   },
   {
     name: "Front End Happy Hour",
@@ -1450,7 +1450,7 @@ const rawThemes: SlackTheme[] = [
       name: "paracycle",
       link: "https://github.com/paracycle/slackthemes",
     },
-    tags: ["paracycle"],
+    tags: ["paracycle", "companies"],
   },
   {
     name: "HotPads",
@@ -1738,7 +1738,7 @@ const rawThemes: SlackTheme[] = [
       name: "paracycle",
       link: "https://github.com/paracycle/slackthemes",
     },
-    tags: ["paracycle"],
+    tags: ["paracycle", "companies"],
   },
   {
     name: "Zebra",
@@ -1837,7 +1837,7 @@ const rawThemes: SlackTheme[] = [
       name: "paracycle",
       link: "https://github.com/paracycle/slackthemes",
     },
-    tags: ["paracycle"],
+    tags: ["paracycle", "companies"],
   },
   {
     name: "CodeMash",
@@ -1945,7 +1945,7 @@ const rawThemes: SlackTheme[] = [
       name: "paracycle",
       link: "https://github.com/paracycle/slackthemes",
     },
-    tags: ["paracycle"],
+    tags: ["paracycle", "nhl"],
   },
   {
     name: "MetaFilter",
@@ -2053,7 +2053,7 @@ const rawThemes: SlackTheme[] = [
       name: "paracycle",
       link: "https://github.com/paracycle/slackthemes",
     },
-    tags: ["paracycle"],
+    tags: ["paracycle", "schools"],
   },
   {
     name: "Cleveland Browns",
