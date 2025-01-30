@@ -14,3 +14,8 @@
 - [ ] Featured theme; use bottom left of the sidebar
 - [ ] Improve data
 - [ ] Add themes from [here](https://github.com/paracycle/slackthemes/pulls)
+- [ ] Add top universities
+- [ ] Add sports teams
+- [ ] Add F500 companies, top start-ups
+- [ ] Add top technologies
+- [ ] Add major communities
