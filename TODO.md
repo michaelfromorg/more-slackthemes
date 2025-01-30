@@ -1,0 +1,16 @@
+# TODO
+
+- [ ] Migrate to new Slack theme format
+  - [ ] Light sidebar, dark sidebar
+  - [ ] Gradients
+- [ ] Slack fonts
+- [ ] Dark mode, for the whole app and for theme previews
+- [ ] DM mode: DM me for user feedback, DM Slackbot for jokes or something
+- [ ] Add link from theme to GitHub entry (for easy editing)
+- [ ] Migrate data to a non-TypeScript file (maybe `tsv`)
+- [ ] Improve "generate theme"
+  - [ ] Generate random theme based on a single color
+  - [ ] Better loading status for image → theme; better algorithm
+- [ ] Featured theme; use bottom left of the sidebar
+- [ ] Improve data
+- [ ] Add themes from [here](https://github.com/paracycle/slackthemes/pulls)

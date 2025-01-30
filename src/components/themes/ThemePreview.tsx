@@ -1,8 +1,13 @@
 import { Badge } from "@/components/ui/badge";
 import { RadioGroupItem } from "@/components/ui/radio-group";
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 import { alphaColor, mixColors } from "@/lib/theme-utils";
-import { ExternalLink, Hash, User } from "lucide-react";
+import { ExternalLink, Hash } from "lucide-react";
 
 // Enhanced Theme type
 interface Theme {
@@ -28,9 +33,10 @@ interface Theme {
 
 interface ThemePreviewProps {
   theme: Theme;
+  setActiveTag: (tag: string) => void;
 }
 
-export function ThemePreview({ theme }: ThemePreviewProps) {
+export function ThemePreview({ theme, setActiveTag }: ThemePreviewProps) {
   const { parsedColors } = theme;
 
   return (
@@ -43,13 +49,20 @@ export function ThemePreview({ theme }: ThemePreviewProps) {
             className="h-4"
             style={{
               backgroundColor: parsedColors.menuBg,
-              boxShadow: `${alphaColor(parsedColors.textColor, 0.1)} 0px 1px 0px 0px`,
+              boxShadow: `${alphaColor(
+                parsedColors.textColor,
+                0.1
+              )} 0px 1px 0px 0px`,
             }}
           >
             <div
               className="w-12 h-3 mx-2 rounded-sm"
               style={{
-                backgroundColor: mixColors(parsedColors.topNavText, parsedColors.menuBg, 0.9),
+                backgroundColor: mixColors(
+                  parsedColors.topNavText,
+                  parsedColors.menuBg,
+                  0.9
+                ),
               }}
             />
           </div>
@@ -114,7 +127,6 @@ export function ThemePreview({ theme }: ThemePreviewProps) {
             {/* Submitter Info - If exists */}
             {theme.submitter && (
               <div className="flex items-center gap-1 text-xs text-gray-500">
-                <User className="w-3 h-3" />
                 {theme.submitter.link ? (
                   <a
                     href={theme.submitter.link}
@@ -123,7 +135,10 @@ export function ThemePreview({ theme }: ThemePreviewProps) {
                     className="flex items-center gap-1 hover:text-gray-700"
                   >
                     {theme.submitter.name}
-                    <ExternalLink className="w-3 h-3" />
+                    <ExternalLink
+                      className="w-3 h-3"
+                      style={{ marginTop: 1 }}
+                    />
                   </a>
                 ) : (
                   <span>{theme.submitter.name}</span>
@@ -139,7 +154,11 @@ export function ThemePreview({ theme }: ThemePreviewProps) {
                 {theme.tags.map((tag) => (
                   <Tooltip key={tag}>
                     <TooltipTrigger>
-                      <Badge variant="secondary" className="text-xs px-2 py-0">
+                      <Badge
+                        variant="secondary"
+                        className="text-xs px-2 py-0"
+                        onClick={() => setActiveTag(tag)}
+                      >
                         {tag}
                       </Badge>
                     </TooltipTrigger>

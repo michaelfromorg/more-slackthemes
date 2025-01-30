@@ -28,8 +28,13 @@ InnerElementType.displayName = "InnerElementType";
 export function ThemeGrid() {
   const { trackThemeView } = useThemeAnalytics();
 
-  const { filteredThemes, currentTheme, setCurrentTheme, searchQuery } =
-    useThemeStore();
+  const {
+    filteredThemes,
+    currentTheme,
+    setCurrentTheme,
+    setActiveTag,
+    searchQuery,
+  } = useThemeStore();
 
   // This is stupid
   filteredThemes.sort((a, b) =>
@@ -177,7 +182,7 @@ export function ThemeGrid() {
       <div style={rowStyle}>
         {rowThemes.map((theme) => (
           <div key={theme.slug} style={{ width: columnWidth }}>
-            <ThemePreview theme={theme} />
+            <ThemePreview theme={theme} setActiveTag={setActiveTag} />
           </div>
         ))}
       </div>

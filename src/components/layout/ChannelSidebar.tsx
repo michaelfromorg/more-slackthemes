@@ -1,5 +1,5 @@
 import useThemeStore from "@/store/theme-store";
-import { ChevronDown, Hash, MessageSquarePlus, Plus } from "lucide-react";
+import { ChevronDown, Hash, MessageSquarePlus } from "lucide-react";
 import Avatar from "./Avatar";
 import { TopSidebarSections } from "./SidebarSection";
 
@@ -130,13 +130,6 @@ export function ChannelSidebar() {
             <DirectMessageItem name="michael" isActive={true} isYou={true} />
             <DirectMessageItem name="sam a" />
             <DirectMessageItem name="elon m" isDND={true} notifications={10} />
-            <button
-              className="w-full px-2 py-1 text-sm flex items-center gap-2 hover:bg-black/5"
-              style={{ color: `${parsedColors.textColor}99` }}
-            >
-              <Plus className="w-4 h-4" />
-              Add teammates
-            </button>
           </div>
         </div>
       </div>
