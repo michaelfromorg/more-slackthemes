@@ -1,3 +1,4 @@
+// components/themes/ThemeGenerator.tsx
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import {
   Dialog,
@@ -5,16 +6,19 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog";
+import { Label } from "@/components/ui/label";
+import { Switch } from "@/components/ui/switch";
 import { useThemeAnalytics } from "@/hooks/useThemeAnalytics";
 import { processTheme } from "@/lib/theme-utils";
 import useThemeStore from "@/store/theme-store";
+import { RawTheme } from "@/types/theme";
 import chroma from "chroma-js";
 import { AlertCircle, Upload } from "lucide-react";
 import { useState } from "react";
 
 const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB limit
 
-function extractColors(imageEl: any) {
+function extractDominantColors(imageEl: HTMLImageElement): chroma.Color[] {
   const canvas = document.createElement("canvas");
   const ctx = canvas.getContext("2d");
   if (!ctx) return [];
@@ -24,53 +28,64 @@ function extractColors(imageEl: any) {
   ctx.drawImage(imageEl, 0, 0);
 
   const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height).data;
-  const colors = [];
+  // const colors: chroma.Color[] = [];
+  const colorMap = new Map<string, number>();
 
+  // Sample colors at regular intervals
   for (let i = 0; i < imageData.length; i += 40) {
     const r = imageData[i];
     const g = imageData[i + 1];
     const b = imageData[i + 2];
     if (r !== undefined && g !== undefined && b !== undefined) {
-      colors.push(chroma(r, g, b));
+      const color = chroma(r, g, b);
+      const hex = color.hex();
+      colorMap.set(hex, (colorMap.get(hex) || 0) + 1);
     }
   }
 
-  return colors;
+  // Sort colors by frequency and convert back to chroma colors
+  const sortedColors = Array.from(colorMap.entries())
+    .sort((a, b) => b[1] - a[1])
+    .map(([hex]) => chroma(hex));
+
+  return sortedColors;
 }
 
-function generateTheme(colors: any) {
-  const sortedColors = colors.sort(
-    (a: any, b: any) => chroma(b).luminance() - chroma(a).luminance()
+function generateSlackTheme(
+  colors: chroma.Color[],
+  useGradient: boolean
+): RawTheme {
+  // Sort colors by luminance
+  const sortedByLuminance = [...colors].sort(
+    (a, b) => b.luminance() - a.luminance()
   );
 
-  const darkColors = sortedColors.filter(
-    (c: any) => chroma(c).luminance() < 0.3
+  // Get dark colors for system navigation
+  const darkColors = sortedByLuminance.filter((c) => c.luminance() < 0.3);
+  // Get mid-range colors for selected items and presence
+  const midColors = sortedByLuminance.filter(
+    (c) => c.luminance() >= 0.3 && c.luminance() < 0.7
   );
-  const midColors = sortedColors.filter(
-    (c: any) => chroma(c).luminance() >= 0.3 && chroma(c).luminance() < 0.7
-  );
+  // Get bright colors for notifications
+  const brightColors = sortedByLuminance.filter((c) => c.luminance() >= 0.7);
 
-  const columnBg = darkColors[0]?.hex() || "#1a1d21";
-  const menuBg =
-    darkColors[Math.floor(darkColors.length / 2)]?.hex() || "#1a1d21";
-  const activeItem = midColors[0]?.hex() || "#4a154b";
-  const activeItemText = "#FFFFFF";
-  const hoverItem = chroma(activeItem).brighten().hex();
-  const textColor = "#FFFFFF";
-  const activePresence =
-    midColors[Math.floor(midColors.length / 2)]?.hex() || "#007a5a";
-  const mentionBadge = midColors[midColors.length - 1]?.hex() || "#dc2626";
+  // Select the most appropriate colors
+  const systemNavigation = darkColors[0]?.hex() || "#1a1d21";
+  const selectedItems = midColors[0]?.hex() || "#1164A3";
+  const presenceIndication = midColors[1]?.hex() || "#2BAC76";
+  const notifications = brightColors[0]?.hex() || "#CD2553";
 
-  return [
-    columnBg,
-    menuBg,
-    activeItem,
-    activeItemText,
-    hoverItem,
-    textColor,
-    activePresence,
-    mentionBadge,
-  ].join(",");
+  return {
+    name: "Generated Theme",
+    systemNavigation,
+    selectedItems,
+    presenceIndication,
+    notifications,
+    windowGradient: useGradient,
+    submitterName: undefined,
+    submitterLink: undefined,
+    tags: "generated",
+  };
 }
 
 interface ThemeGeneratorProps {
@@ -82,9 +97,10 @@ export function ThemeGenerator({ open, onOpenChange }: ThemeGeneratorProps) {
   const { trackThemeView } = useThemeAnalytics();
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [useGradient, setUseGradient] = useState(false);
   const { setCurrentTheme } = useThemeStore();
 
-  const handleImageUpload = (e: any) => {
+  const handleImageUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (!file) return;
 
@@ -103,12 +119,9 @@ export function ThemeGenerator({ open, onOpenChange }: ThemeGeneratorProps) {
     reader.onload = (e) => {
       img.onload = () => {
         try {
-          const colors = extractColors(img);
-          const themeColors = generateTheme(colors);
-          const newTheme = processTheme({
-            name: "Generated Theme",
-            colors: themeColors,
-          });
+          const colors = extractDominantColors(img);
+          const rawTheme = generateSlackTheme(colors, useGradient);
+          const newTheme = processTheme(rawTheme);
 
           setCurrentTheme(newTheme);
           trackThemeView(newTheme);
@@ -164,10 +177,26 @@ export function ThemeGenerator({ open, onOpenChange }: ThemeGeneratorProps) {
               </div>
             </label>
           </div>
+
+          <div className="flex items-center space-x-2">
+            <Switch
+              id="gradient-mode"
+              checked={useGradient}
+              onCheckedChange={setUseGradient}
+            />
+            <Label htmlFor="gradient-mode">Use window gradient</Label>
+          </div>
+
           <p className="text-xs text-muted-foreground">
             Upload your workspace logo (max 5MB) to automatically generate a
-            matching Slack theme. The generator will analyze your logo{`'`}s
-            colors to create a harmonious theme. Results may vary, a lot!
+            matching Slack theme. The generator will create a theme with:
+            <ul className="mt-2 list-disc list-inside">
+              <li>System Navigation color (from darkest colors)</li>
+              <li>Selected Items color (from mid-range colors)</li>
+              <li>Presence Indication (from mid-range colors)</li>
+              <li>Notifications (from brightest colors)</li>
+              {useGradient && <li>Window gradient effect</li>}
+            </ul>
           </p>
         </div>
       </DialogContent>

@@ -2,12 +2,12 @@
 
 A modern web application for browsing, sharing, and generating Slack themes. Built with Next.js, React, and TypeScript.
 
-Inspired by [Slack Themes](https://slackthemes.com).
-
 [![Built with Next.js](https://img.shields.io/badge/Built_with-Next.js-black?style=flat-square&logo=next.js)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-Styled-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com)
 [![shadcn/ui](https://img.shields.io/badge/shadcn/ui-Components-black?style=flat-square)](https://ui.shadcn.com)
+
+Inspired by [Slack Themes](https://slackthemes.com).
 
 ## Features
 
@@ -29,22 +29,22 @@ Inspired by [Slack Themes](https://slackthemes.com).
 
 1. Clone the repository.
 
-```bash
-gh repo clone michaelfromorg/more-slackthemes
-cd slack-themes
-```
+    ```bash
+    gh repo clone michaelfromorg/more-slackthemes
+    cd slack-themes
+    ```
 
 2. Install dependencies.
 
-```bash
-npm install
-```
+    ```bash
+    npm install
+    ```
 
 3. Start the development server.
 
-```bash
-npm run dev
-```
+    ```bash
+    npm run dev
+    ```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
@@ -52,7 +52,7 @@ npm run dev
 
 Within `src/`.
 
-```
+```plaintext
 ├── app/                   # Next.js app directory
 ├── components/
 │   ├── layout/            # Layout components

@@ -1,4 +1,4 @@
-import { UserRound } from 'lucide-react';
+import { UserRound } from "lucide-react";
 
 interface AvatarProps {
   name: string;
@@ -8,34 +8,40 @@ interface AvatarProps {
 
 const getInitials = (name: string) => {
   return name
-    .split(' ')
-    .map(word => word[0])
-    .join('')
+    .split(" ")
+    .map((word) => word[0])
+    .join("")
     .toUpperCase()
     .slice(0, 2);
 };
 
 const getBackgroundColor = (name: string) => {
   const colors = [
-    'bg-blue-500',
-    'bg-green-500',
-    'bg-yellow-500',
-    'bg-purple-500',
-    'bg-pink-500',
-    'bg-indigo-500',
-    'bg-red-500',
-    'bg-orange-500'
+    "bg-blue-500",
+    "bg-green-500",
+    "bg-yellow-500",
+    "bg-purple-500",
+    "bg-pink-500",
+    "bg-indigo-500",
+    "bg-red-500",
+    "bg-orange-500",
   ];
 
-  const index = name.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0) % colors.length;
+  const index =
+    name.split("").reduce((acc, char) => acc + char.charCodeAt(0), 0) %
+    colors.length;
   return colors[index];
 };
 
-export default function Avatar({ name, size = 32, className = '' }: AvatarProps) {
+export default function Avatar({
+  name,
+  size = 32,
+  className = "",
+}: AvatarProps) {
   const initials = getInitials(name);
   const bgColor = getBackgroundColor(name);
 
-  if (name === 'Slackbot') {
+  if (name === "Slackbot") {
     return (
       <div
         className={`flex items-center justify-center rounded ${bgColor} ${className}`}

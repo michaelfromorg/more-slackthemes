@@ -1,3 +1,4 @@
+// components/SidebarSection.tsx
 import useThemeStore from "@/store/theme-store";
 import {
   AtSign,
@@ -15,12 +16,13 @@ interface SidebarItemProps {
 
 function SidebarItem({ icon, label, notifications }: SidebarItemProps) {
   const { currentTheme } = useThemeStore();
-  const { parsedColors } = currentTheme;
+  const { colors } = currentTheme;
+  const { notifications: notificationColor, inferred } = colors;
 
   return (
     <button
       className="w-full px-2 py-1 text-sm flex items-center justify-between rounded hover:bg-black/5"
-      style={{ color: parsedColors.textColor }}
+      style={{ color: inferred.systemNavigationText }}
     >
       <div className="flex items-center gap-2">
         {icon}
@@ -30,7 +32,7 @@ function SidebarItem({ icon, label, notifications }: SidebarItemProps) {
         <span
           className="px-1.5 rounded text-xs font-bold"
           style={{
-            backgroundColor: parsedColors.mentionBadge,
+            backgroundColor: notificationColor,
             color: "#FFFFFF",
           }}
         >
@@ -43,7 +45,8 @@ function SidebarItem({ icon, label, notifications }: SidebarItemProps) {
 
 export function TopSidebarSections() {
   const { currentTheme } = useThemeStore();
-  const { parsedColors } = currentTheme;
+  const { colors } = currentTheme;
+  const { inferred } = colors;
 
   return (
     <div className="space-y-1 px-2 py-3">
@@ -69,7 +72,7 @@ export function TopSidebarSections() {
 
       <button
         className="w-full px-2 py-1 text-sm flex items-center gap-2 rounded hover:bg-black/5"
-        style={{ color: parsedColors.textColor }}
+        style={{ color: inferred.systemNavigationText }}
       >
         <MoreHorizontal className="w-4 h-4" />
         <span>More</span>

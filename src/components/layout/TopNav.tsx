@@ -1,18 +1,29 @@
 import { NOTION_FORM_URL } from "@/lib/constants";
+import { alphaColor } from "@/lib/theme-utils";
 import { getShortcutText } from "@/lib/utils";
 import useThemeStore from "@/store/theme-store";
-import chroma from "chroma-js";
 import { Search, User, X } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { MobileNav } from "./MobileNav";
 
 export function TopNav() {
   const { currentTheme, searchQuery, setSearchQuery } = useThemeStore();
-  const { parsedColors } = currentTheme;
+  const { colors, windowGradient } = currentTheme;
+  const { systemNavigation, inferred } = colors;
+
   const [isFocused, setIsFocused] = useState(false);
   const searchInputRef = useRef<HTMLInputElement>(null);
-
   const [shortcutText] = useState(getShortcutText("K"));
+
+  // Create background style based on whether gradient is enabled
+  const backgroundStyle =
+    windowGradient && inferred.gradientStart && inferred.gradientEnd
+      ? {
+          background: `linear-gradient(to bottom, ${inferred.gradientStart}, ${inferred.gradientEnd})`,
+        }
+      : {
+          backgroundColor: systemNavigation,
+        };
 
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
@@ -36,9 +47,9 @@ export function TopNav() {
     <div
       className="flex items-center h-12 px-4 border-b"
       style={{
-        backgroundColor: parsedColors.menuBg,
-        color: parsedColors.textColor,
-        borderColor: chroma(parsedColors.textColor).alpha(0.1).css(),
+        ...backgroundStyle,
+        color: inferred.systemNavigationText,
+        borderColor: alphaColor(inferred.systemNavigationText, 0.1),
       }}
     >
       <div className="flex items-center gap-2">
@@ -52,8 +63,8 @@ export function TopNav() {
             isFocused ? "ring-1 ring-white/30" : ""
           }`}
           style={{
-            backgroundColor: chroma(parsedColors.textColor).alpha(0.05).css(),
-            color: parsedColors.textColor,
+            backgroundColor: alphaColor(inferred.systemNavigationText, 0.05),
+            color: inferred.systemNavigationText,
           }}
         >
           <Search
@@ -71,7 +82,7 @@ export function TopNav() {
             onChange={(e) => setSearchQuery(e.target.value)}
             onFocus={() => setIsFocused(true)}
             onBlur={() => setIsFocused(false)}
-            style={{ color: parsedColors.textColor }}
+            style={{ color: inferred.systemNavigationText }}
           />
           {searchQuery && (
             <button
@@ -90,14 +101,14 @@ export function TopNav() {
           target="_blank"
           rel="noopener noreferrer"
           className="hidden lg:flex items-center gap-2 px-3 py-1.5 rounded hover:bg-black/10"
-          style={{ color: parsedColors.textColor }}
+          style={{ color: inferred.systemNavigationText }}
         >
           <span className="text-sm">Suggest a new theme!</span>
         </a>
 
         <button
           className="p-2 rounded hover:bg-black/10"
-          style={{ color: parsedColors.textColor }}
+          style={{ color: inferred.systemNavigationText }}
         >
           <User className="w-4 h-4" />
         </button>

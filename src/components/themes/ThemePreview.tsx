@@ -1,3 +1,4 @@
+// components/themes/ThemePreview.tsx
 import { Badge } from "@/components/ui/badge";
 import { RadioGroupItem } from "@/components/ui/radio-group";
 import {
@@ -7,29 +8,8 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { alphaColor, mixColors } from "@/lib/theme-utils";
+import { Theme } from "@/types/theme";
 import { ExternalLink, Hash } from "lucide-react";
-
-// Enhanced Theme type
-interface Theme {
-  name: string;
-  slug: string;
-  parsedColors: {
-    menuBg: string;
-    columnBg: string;
-    activeItem: string;
-    activeItemText: string;
-    textColor: string;
-    activePresence: string;
-    mentionBadge: string;
-    topNavText: string;
-  };
-  // New optional fields
-  submitter?: {
-    name: string;
-    link?: string;
-  };
-  tags?: string[];
-}
 
 interface ThemePreviewProps {
   theme: Theme;
@@ -37,20 +17,36 @@ interface ThemePreviewProps {
 }
 
 export function ThemePreview({ theme, setActiveTag }: ThemePreviewProps) {
-  const { parsedColors } = theme;
+  const { colors, windowGradient } = theme;
+  const {
+    systemNavigation,
+    selectedItems,
+    presenceIndication,
+    notifications,
+    inferred,
+  } = colors;
+
+  // Create background style based on whether gradient is enabled
+  const backgroundStyle =
+    windowGradient && inferred.gradientStart && inferred.gradientEnd
+      ? {
+          background: `linear-gradient(to bottom, ${inferred.gradientStart}, ${inferred.gradientEnd})`,
+        }
+      : {
+          backgroundColor: systemNavigation,
+        };
 
   return (
     <div className="flex flex-col rounded-md overflow-hidden border h-full">
       <div className="relative">
-        {/* Theme Preview - Same as before */}
         <div className="w-full h-24">
           {/* Top Nav Preview */}
           <div
             className="h-4"
             style={{
-              backgroundColor: parsedColors.menuBg,
+              ...backgroundStyle,
               boxShadow: `${alphaColor(
-                parsedColors.textColor,
+                inferred.systemNavigationText,
                 0.1
               )} 0px 1px 0px 0px`,
             }}
@@ -59,8 +55,8 @@ export function ThemePreview({ theme, setActiveTag }: ThemePreviewProps) {
               className="w-12 h-3 mx-2 rounded-sm"
               style={{
                 backgroundColor: mixColors(
-                  parsedColors.topNavText,
-                  parsedColors.menuBg,
+                  inferred.systemNavigationText,
+                  systemNavigation,
                   0.9
                 ),
               }}
@@ -72,47 +68,79 @@ export function ThemePreview({ theme, setActiveTag }: ThemePreviewProps) {
             {/* Workspace Switcher */}
             <div
               className="w-8 flex-shrink-0 h-full flex flex-col items-center py-1 gap-1"
-              style={{ backgroundColor: parsedColors.menuBg }}
+              style={backgroundStyle}
             >
               <div className="w-6 h-6 rounded bg-gray-400" />
               <div
                 className="w-6 h-6 rounded"
                 style={{
-                  backgroundColor: alphaColor(parsedColors.textColor, 0.2),
+                  backgroundColor: alphaColor(
+                    inferred.systemNavigationText,
+                    0.2
+                  ),
                 }}
               />
             </div>
 
             {/* Channel Sidebar */}
-            <div
-              className="flex-1 flex"
-              style={{ backgroundColor: parsedColors.columnBg }}
-            >
+            <div className="flex-1 flex" style={backgroundStyle}>
               <div className="flex-1 p-1 space-y-1">
-                {/* Channel Item */}
+                {/* Selected Channel Item */}
                 <div
                   className="h-4 rounded flex items-center px-1 gap-1"
-                  style={{ backgroundColor: parsedColors.activeItem }}
+                  style={{
+                    backgroundColor: selectedItems,
+                    color: inferred.selectedItemsText,
+                  }}
                 >
-                  <Hash
-                    className="w-3 h-3"
-                    style={{ color: parsedColors.activeItemText }}
-                  />
+                  <Hash className="w-3 h-3" />
                   <div
                     className="w-12 h-2 rounded"
-                    style={{ backgroundColor: parsedColors.activeItemText }}
+                    style={{ backgroundColor: inferred.selectedItemsText }}
                   />
                 </div>
 
-                {/* Other items remain the same... */}
+                {/* Presence Indicator Example */}
+                <div className="h-4 rounded flex items-center gap-1 px-1">
+                  <div
+                    className="w-2 h-2 rounded-full"
+                    style={{ backgroundColor: presenceIndication }}
+                  />
+                  <div
+                    className="w-12 h-2 rounded"
+                    style={{
+                      backgroundColor: alphaColor(
+                        inferred.systemNavigationText,
+                        0.6
+                      ),
+                    }}
+                  />
+                </div>
+
+                {/* Notification Badge Example */}
+                <div className="h-4 rounded flex items-center justify-between px-1">
+                  <div
+                    className="w-12 h-2 rounded"
+                    style={{
+                      backgroundColor: alphaColor(
+                        inferred.systemNavigationText,
+                        0.6
+                      ),
+                    }}
+                  />
+                  <div
+                    className="w-4 h-3 rounded-full"
+                    style={{ backgroundColor: notifications }}
+                  />
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-        {/* Enhanced Theme Information Section */}
+        {/* Theme Information Section */}
         <div className="p-2 space-y-2 bg-white border-t">
-          {/* Theme Name and Radio - First Row */}
+          {/* Theme Name and Radio */}
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <RadioGroupItem value={theme.slug} id={theme.slug} />
@@ -124,7 +152,7 @@ export function ThemePreview({ theme, setActiveTag }: ThemePreviewProps) {
               </label>
             </div>
 
-            {/* Submitter Info - If exists */}
+            {/* Submitter Info */}
             {theme.submitter && (
               <div className="flex items-center gap-1 text-xs text-gray-500">
                 {theme.submitter.link ? (
@@ -147,7 +175,7 @@ export function ThemePreview({ theme, setActiveTag }: ThemePreviewProps) {
             )}
           </div>
 
-          {/* Tags - Second Row - Only shown if tags exist */}
+          {/* Tags */}
           {theme.tags && theme.tags.length > 0 && (
             <div className="flex flex-wrap gap-1">
               <TooltipProvider>

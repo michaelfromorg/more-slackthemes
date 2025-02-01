@@ -1,4 +1,5 @@
-import defaultThemes from "@/data/themes";
+// store/theme-store.ts
+import { defaultTheme, themes as defaultThemes } from "@/data/themes";
 import { Theme } from "@/types/theme";
 import { create } from "zustand";
 
@@ -8,6 +9,8 @@ interface ThemeStore {
   searchQuery: string;
   activeTag: string;
   filteredThemes: Theme[];
+
+  // Actions
   setCurrentTheme: (theme: Theme) => void;
   setSearchQuery: (query: string) => void;
   setActiveTag: (tag: string) => void;
@@ -19,7 +22,7 @@ interface ThemeStore {
 
 const useThemeStore = create<ThemeStore>((set, get) => ({
   themes: defaultThemes,
-  currentTheme: defaultThemes[0],
+  currentTheme: defaultTheme,
   searchQuery: "",
   activeTag: "general",
   filteredThemes: defaultThemes,
@@ -71,18 +74,13 @@ const useThemeStore = create<ThemeStore>((set, get) => ({
   },
 
   getCurrentThemeString: () => {
-    const { parsedColors } = get().currentTheme;
+    const { colors, windowGradient } = get().currentTheme;
     return [
-      parsedColors.columnBg,
-      parsedColors.menuBg,
-      parsedColors.activeItem,
-      parsedColors.activeItemText,
-      parsedColors.hoverItem,
-      parsedColors.textColor,
-      parsedColors.activePresence,
-      parsedColors.mentionBadge,
-      parsedColors.topNavBg,
-      parsedColors.topNavText,
+      colors.systemNavigation,
+      colors.selectedItems,
+      colors.presenceIndication,
+      colors.notifications,
+      ...(windowGradient ? ["gradient"] : []),
     ].join(",");
   },
 
@@ -94,15 +92,9 @@ const useThemeStore = create<ThemeStore>((set, get) => ({
     const tag = url.searchParams.get("tag") || "general";
 
     if (themeSlug) {
-      if (themeSlug === "generated-theme") {
-        // TODO(michaelfromyeg): check this
-        url.searchParams.delete("theme");
-        window.history.replaceState({}, "", url.toString());
-      } else {
-        const theme = get().themes.find((t) => t.slug === themeSlug);
-        if (theme) {
-          set({ currentTheme: theme });
-        }
+      const theme = get().themes.find((t) => t.slug === themeSlug);
+      if (theme) {
+        set({ currentTheme: theme });
       }
     }
 

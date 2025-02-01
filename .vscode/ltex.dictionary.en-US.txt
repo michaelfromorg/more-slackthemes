@@ -1,0 +1,6 @@
+npm
+pnpm
+Zustand
+shadcn
+ui
+Vercel

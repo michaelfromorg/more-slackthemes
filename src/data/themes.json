@@ -1,0 +1,3502 @@
+[
+  {
+    "name": "360Channel",
+    "systemNavigation": "#E60A00",
+    "selectedItems": "#E60A00",
+    "presenceIndication": "#E64600",
+    "notifications": "#E60A00",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Afterglow",
+    "systemNavigation": "#252525",
+    "selectedItems": "#A36B31",
+    "presenceIndication": "#ADBA4E",
+    "notifications": "#DB6668",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "AmigaOS 1.3",
+    "systemNavigation": "#000020",
+    "selectedItems": "#F08000",
+    "presenceIndication": "#F08000",
+    "notifications": "#F08000",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Ancestry",
+    "systemNavigation": "#706b63",
+    "selectedItems": "#7a9c0f",
+    "presenceIndication": "#9cbe30",
+    "notifications": "#f3b670",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Arc",
+    "systemNavigation": "#303641",
+    "selectedItems": "#5294E2",
+    "presenceIndication": "#5294E2",
+    "notifications": "#5294E2",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Arc Grey",
+    "systemNavigation": "#303641",
+    "selectedItems": "#999999",
+    "presenceIndication": "#999999",
+    "notifications": "#999999",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Arizona State University",
+    "systemNavigation": "#5C6670",
+    "selectedItems": "#FFC627",
+    "presenceIndication": "#94E864",
+    "notifications": "#00A3E0",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Atom One Dark",
+    "systemNavigation": "#2F343D",
+    "selectedItems": "#2F343D",
+    "presenceIndication": "#98C379",
+    "notifications": "#98C379",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Aubergine",
+    "systemNavigation": "#350d36",
+    "selectedItems": "#1164A3",
+    "presenceIndication": "#2BAC76",
+    "notifications": "#CD2553",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Autumn",
+    "systemNavigation": "#9c2e33",
+    "selectedItems": "#E7C12e",
+    "presenceIndication": "#ee6030",
+    "notifications": "#9C2E33",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "AWA",
+    "systemNavigation": "#333333",
+    "selectedItems": "#444444",
+    "presenceIndication": "#38978D",
+    "notifications": "#fc7459",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "B-MIND",
+    "systemNavigation": "#000000",
+    "selectedItems": "#0ba8ca",
+    "presenceIndication": "#0ba8ca",
+    "notifications": "#EB4D5C",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Base16 Default Dark",
+    "systemNavigation": "#585858",
+    "selectedItems": "#7cafc2",
+    "presenceIndication": "#f7ca88",
+    "notifications": "#ab4642",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Base16 Eighties Dark",
+    "systemNavigation": "#2D2D2D",
+    "selectedItems": "#F2777A",
+    "presenceIndication": "#99CC99",
+    "notifications": "#66CCCC",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Base16 Eighties Light",
+    "systemNavigation": "#E8E6DF",
+    "selectedItems": "#F2777A",
+    "presenceIndication": "#99CC99",
+    "notifications": "#66CCCC",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Base16 Ocean Dark",
+    "systemNavigation": "#16181f",
+    "selectedItems": "#4f5b66",
+    "presenceIndication": "#a3be8c",
+    "notifications": "#bf616a",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Base16 Tomorrow Night",
+    "systemNavigation": "#282A2E",
+    "selectedItems": "#B6BC68",
+    "presenceIndication": "#80A2BE",
+    "notifications": "#C26161",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "BCIT",
+    "systemNavigation": "#000a52",
+    "selectedItems": "#73AD0D",
+    "presenceIndication": "#F79F66",
+    "notifications": "#F15340",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Beaver Builders",
+    "systemNavigation": "#FFB963",
+    "selectedItems": "#FFB963",
+    "presenceIndication": "#3D0000",
+    "notifications": "#507DAA",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "beNext",
+    "systemNavigation": "#EDEFF1",
+    "selectedItems": "#D1571C",
+    "presenceIndication": "#48B8AD",
+    "notifications": "#D3561A",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Big Red",
+    "systemNavigation": "#BD3737",
+    "selectedItems": "#9C4444",
+    "presenceIndication": "#99D04A",
+    "notifications": "#DB6668",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Bolket",
+    "systemNavigation": "#020623",
+    "selectedItems": "#00B993",
+    "presenceIndication": "#52eb7b",
+    "notifications": "#FF2154",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Bourbon",
+    "systemNavigation": "#CF7C44",
+    "selectedItems": "#E89A6B",
+    "presenceIndication": "#92406A",
+    "notifications": "#92406A",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Brinjal",
+    "systemNavigation": "#452842",
+    "selectedItems": "#8C5888",
+    "presenceIndication": "#00FFB7",
+    "notifications": "#DE4C0D",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Chargify",
+    "systemNavigation": "#229725",
+    "selectedItems": "#13C217",
+    "presenceIndication": "#13C217",
+    "notifications": "#439AEA",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "charity: water",
+    "systemNavigation": "#FFFFFF",
+    "selectedItems": "#efd213",
+    "presenceIndication": "#59c77f",
+    "notifications": "#fa575d",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Chicago Cubs",
+    "systemNavigation": "#133a94",
+    "selectedItems": "#D12325",
+    "presenceIndication": "#D12325",
+    "notifications": "#D12325",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Choco Mint",
+    "systemNavigation": "#42362B",
+    "selectedItems": "#5DB09D",
+    "presenceIndication": "#FFFFFF",
+    "notifications": "#5DB09D",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Christmas",
+    "systemNavigation": "#1B5E48",
+    "selectedItems": "#db2e3f",
+    "presenceIndication": "#1B5E48",
+    "notifications": "#DB2E3F",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Citrus",
+    "systemNavigation": "#94AF63",
+    "selectedItems": "#FFEA00",
+    "presenceIndication": "#F7FF00",
+    "notifications": "#FF9900",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Clemson",
+    "systemNavigation": "#ff7a4a",
+    "selectedItems": "#46266D",
+    "presenceIndication": "#46266D",
+    "notifications": "#46266D",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Cleveland Browns",
+    "systemNavigation": "#000000",
+    "selectedItems": "#EC5614",
+    "presenceIndication": "#EC5614",
+    "notifications": "#EC5614",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Cobalt2",
+    "systemNavigation": "#FFC600",
+    "selectedItems": "#1D425D",
+    "presenceIndication": "#2CDB00",
+    "notifications": "#FFC600",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "CobaltNext",
+    "systemNavigation": "#343d46",
+    "selectedItems": "#5fb3b3",
+    "presenceIndication": "#99c794",
+    "notifications": "#fac863",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "CodeMash",
+    "systemNavigation": "#f67f01",
+    "selectedItems": "#94C53C",
+    "presenceIndication": "#FFFFFF",
+    "notifications": "#94C53C",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Contentful",
+    "systemNavigation": "#263545",
+    "selectedItems": "#19cd91",
+    "presenceIndication": "#19cd91",
+    "notifications": "#f05751",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Convoy",
+    "systemNavigation": "#3A3D3F",
+    "selectedItems": "#D84315",
+    "presenceIndication": "#48B8AD",
+    "notifications": "#D84315",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "CraftCMS",
+    "systemNavigation": "#47525F",
+    "selectedItems": "#DA513D",
+    "presenceIndication": "#DA513D",
+    "notifications": "#DA513D",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Dallas Stars",
+    "systemNavigation": "#A7A8AC",
+    "selectedItems": "#016F4A",
+    "presenceIndication": "#339E7A",
+    "notifications": "#016F4A",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Danny Torrence",
+    "systemNavigation": "#5C1500",
+    "selectedItems": "#FFFFFF",
+    "presenceIndication": "#FFFFFF",
+    "notifications": "#AD2A02",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Dark Zenburn",
+    "systemNavigation": "#1E2320",
+    "selectedItems": "#709080",
+    "presenceIndication": "#F0DFAF",
+    "notifications": "#CC9393",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "DD",
+    "systemNavigation": "#111111",
+    "selectedItems": "#111111",
+    "presenceIndication": "#66DD66",
+    "notifications": "#DD666D",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Decred",
+    "systemNavigation": "#153161",
+    "selectedItems": "#2970ff",
+    "presenceIndication": "#2ed6a1",
+    "notifications": "#2ed6a1",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Deep Blue",
+    "systemNavigation": "#0083CA",
+    "selectedItems": "#00A2FF",
+    "presenceIndication": "#03EEFF",
+    "notifications": "#00CCC2",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Deezer",
+    "systemNavigation": "#42424D",
+    "selectedItems": "#007FEB",
+    "presenceIndication": "#a4bf36",
+    "notifications": "#f74343",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Delta",
+    "systemNavigation": "#434f61",
+    "selectedItems": "#434f61",
+    "presenceIndication": "#44DB5E",
+    "notifications": "#f72951",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Design Hub",
+    "systemNavigation": "#1B549E",
+    "selectedItems": "#19C0E7",
+    "presenceIndication": "#19C0E7",
+    "notifications": "#FFFFFF",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "devRant",
+    "systemNavigation": "#54556e",
+    "selectedItems": "#f99a66",
+    "presenceIndication": "#d55161",
+    "notifications": "#d55161",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Digital Media Solutions",
+    "systemNavigation": "#117bcf",
+    "selectedItems": "#467ca2",
+    "presenceIndication": "#7DB461",
+    "notifications": "#cb4641",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "DigitalOcean",
+    "systemNavigation": "#215F8B",
+    "selectedItems": "#7DB461",
+    "presenceIndication": "#7DB461",
+    "notifications": "#215F8B",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Discord",
+    "systemNavigation": "#282b30",
+    "selectedItems": "#282b30",
+    "presenceIndication": "#43b581",
+    "notifications": "#7289da",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Dobby Purple",
+    "systemNavigation": "#56A656",
+    "selectedItems": "#56a656",
+    "presenceIndication": "#D0FF00",
+    "notifications": "#889100",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Dolly Dark",
+    "systemNavigation": "#564F4D",
+    "selectedItems": "#E7412A",
+    "presenceIndication": "#8DA600",
+    "notifications": "#0EA7B5",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Dolly Light",
+    "systemNavigation": "#F3F3F3",
+    "selectedItems": "#E7412A",
+    "presenceIndication": "#8DA600",
+    "notifications": "#0EA7B5",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Douglas Rain",
+    "systemNavigation": "#E3E3E3",
+    "selectedItems": "#DA552F",
+    "presenceIndication": "#DA552F",
+    "notifications": "#DA552F",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Dracula",
+    "systemNavigation": "#44475A",
+    "selectedItems": "#44475A",
+    "presenceIndication": "#50FA7B",
+    "notifications": "#FF5555",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Draft U.S. Web Design Standards",
+    "systemNavigation": "#205493",
+    "selectedItems": "#0071BC",
+    "presenceIndication": "#4AA564",
+    "notifications": "#981B1E",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Dropbox",
+    "systemNavigation": "#007EE5",
+    "selectedItems": "#47525D",
+    "presenceIndication": "#47525D",
+    "notifications": "#47525D",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Drund",
+    "systemNavigation": "#202020",
+    "selectedItems": "#99CB3F",
+    "presenceIndication": "#99CB3F",
+    "notifications": "#F7124E",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Drupal Twig",
+    "systemNavigation": "#3E313C",
+    "selectedItems": "#01690b",
+    "presenceIndication": "#faff78",
+    "notifications": "#ed687e",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "EGA",
+    "systemNavigation": "#00AAAA",
+    "selectedItems": "#FF55FF",
+    "presenceIndication": "#C0C0C0",
+    "notifications": "#FF00FF",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "elementary GTK",
+    "systemNavigation": "#f5f5f5",
+    "selectedItems": "#cecece",
+    "presenceIndication": "#93d844",
+    "notifications": "#da4d45",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Ember.js",
+    "systemNavigation": "#faf4f1",
+    "selectedItems": "#E77562",
+    "presenceIndication": "#E46651",
+    "notifications": "#E46651",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "EMBL",
+    "systemNavigation": "#C3C0AB",
+    "selectedItems": "#9FCC3B",
+    "presenceIndication": "#D90F21",
+    "notifications": "#D90f21",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Facebook",
+    "systemNavigation": "#38528B",
+    "selectedItems": "#38528B",
+    "presenceIndication": "#1FAD38",
+    "notifications": "#CD2323",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "FC Bayern München",
+    "systemNavigation": "#B51929",
+    "selectedItems": "#23408E",
+    "presenceIndication": "#E5D3A0",
+    "notifications": "#B7B6B7",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Film Noir",
+    "systemNavigation": "#101010",
+    "selectedItems": "#D3D3CA",
+    "presenceIndication": "#BB313E",
+    "notifications": "#BB313E",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Florida Gators",
+    "systemNavigation": "#053354",
+    "selectedItems": "#dd661e",
+    "presenceIndication": "#dd661e",
+    "notifications": "#dd661e",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "FOLIO orange",
+    "systemNavigation": "#737272",
+    "selectedItems": "#38307F",
+    "presenceIndication": "#38307F",
+    "notifications": "#38307F",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "FOLIO purple",
+    "systemNavigation": "#737272",
+    "selectedItems": "#DA6A2D",
+    "presenceIndication": "#DA6A2D",
+    "notifications": "#DA6A2D",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Forest",
+    "systemNavigation": "#077a07",
+    "selectedItems": "#02ad44",
+    "presenceIndication": "#94E864",
+    "notifications": "#78AF8F",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "frame.ai",
+    "systemNavigation": "#272e35",
+    "selectedItems": "#F26900",
+    "presenceIndication": "#48B8AD",
+    "notifications": "#F3B200",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "FreshBooks",
+    "systemNavigation": "#0064BE",
+    "selectedItems": "#86C620",
+    "presenceIndication": "#9DFF00",
+    "notifications": "#86C620",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Front End Happy Hour",
+    "systemNavigation": "#D6D8D7",
+    "selectedItems": "#D6D8D7",
+    "presenceIndication": "#D6D8D7",
+    "notifications": "#D6D8D7",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Gartland",
+    "systemNavigation": "#696969",
+    "selectedItems": "#FFD200",
+    "presenceIndication": "#00703C",
+    "notifications": "#EF4C23",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Georgia Tech",
+    "systemNavigation": "#15467a",
+    "selectedItems": "#EEB211",
+    "presenceIndication": "#C59353",
+    "notifications": "#007BFF",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Github",
+    "systemNavigation": "#24292e",
+    "selectedItems": "#e9f0f7",
+    "presenceIndication": "#28a745",
+    "notifications": "#92979b",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Github Activity Graph",
+    "systemNavigation": "#222222",
+    "selectedItems": "#44A340",
+    "presenceIndication": "#D6E685",
+    "notifications": "#1E6823",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "GitKraken",
+    "systemNavigation": "#259692",
+    "selectedItems": "#259692",
+    "presenceIndication": "#ff8800",
+    "notifications": "#FF8800",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "GitLab",
+    "systemNavigation": "#634489",
+    "selectedItems": "#FC6D26",
+    "presenceIndication": "#FCA326",
+    "notifications": "#e24329",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Goodstuff FM",
+    "systemNavigation": "#000000",
+    "selectedItems": "#DA5647",
+    "presenceIndication": "#57AFBD",
+    "notifications": "#DA5647",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Gotham",
+    "systemNavigation": "#10151B",
+    "selectedItems": "#265360",
+    "presenceIndication": "#EDB54B",
+    "notifications": "#C33027",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Green Lantern",
+    "systemNavigation": "#404245",
+    "selectedItems": "#424242",
+    "presenceIndication": "#2ECC71",
+    "notifications": "#00A362",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Grooveshark",
+    "systemNavigation": "#FD6540",
+    "selectedItems": "#393F40",
+    "presenceIndication": "#F1F2F4",
+    "notifications": "#FD6540",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Gruvbox Dark",
+    "systemNavigation": "#3c3836",
+    "selectedItems": "#98971a",
+    "presenceIndication": "#b8bb26",
+    "notifications": "#fb4934",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Gruvbox Light Medium",
+    "systemNavigation": "#EBDBB2",
+    "selectedItems": "#79740E",
+    "presenceIndication": "#8F3F71",
+    "notifications": "#076678",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Halloween",
+    "systemNavigation": "#000000",
+    "selectedItems": "#ffffff",
+    "presenceIndication": "#000000",
+    "notifications": "#736e65",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Haunter",
+    "systemNavigation": "#260024",
+    "selectedItems": "#FF1962",
+    "presenceIndication": "#FF1962",
+    "notifications": "#FF1962",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Hibari",
+    "systemNavigation": "#383643",
+    "selectedItems": "#EB4864",
+    "presenceIndication": "#EB4864",
+    "notifications": "#EB4864",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "High Contrast",
+    "systemNavigation": "#999999",
+    "selectedItems": "#000000",
+    "presenceIndication": "#808080",
+    "notifications": "#000000",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Hip",
+    "systemNavigation": "#CCCCCC",
+    "selectedItems": "#3873AE",
+    "presenceIndication": "#69AA4E",
+    "notifications": "#999999",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Hot Dog Stand",
+    "systemNavigation": "#91282A",
+    "selectedItems": "#F79F66",
+    "presenceIndication": "#F79F66",
+    "notifications": "#F15340",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Hoth",
+    "systemNavigation": "#F8F8FA",
+    "selectedItems": "#2D9EE0",
+    "presenceIndication": "#60D156",
+    "notifications": "#DC5960",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "HotPads",
+    "systemNavigation": "#E5613B",
+    "selectedItems": "#4EBDA6",
+    "presenceIndication": "#4EBDA6",
+    "notifications": "#BE3410",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Hummingbird",
+    "systemNavigation": "#2F343B",
+    "selectedItems": "#FD7532",
+    "presenceIndication": "#FD7532",
+    "notifications": "#FD7532",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Ingress Enlightened",
+    "systemNavigation": "#000E0F",
+    "selectedItems": "#393218",
+    "presenceIndication": "#02BF02",
+    "notifications": "#F1C248",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Ingress Resistence",
+    "systemNavigation": "#000E0F",
+    "selectedItems": "#393218",
+    "presenceIndication": "#0492D0",
+    "notifications": "#F1C248",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Inpsyde",
+    "systemNavigation": "#333333",
+    "selectedItems": "#9FC65D",
+    "presenceIndication": "#9FC65D",
+    "notifications": "#ffbc3b",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "JavaScript",
+    "systemNavigation": "#F0DB4F",
+    "selectedItems": "#323330",
+    "presenceIndication": "#323330",
+    "notifications": "#323330",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Jellybeans",
+    "systemNavigation": "#b65f49",
+    "selectedItems": "#81A9C2",
+    "presenceIndication": "#A79AC6",
+    "notifications": "#889962",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Juice Bar",
+    "systemNavigation": "#94AF63",
+    "selectedItems": "#FFFFFF",
+    "presenceIndication": "#FFB10A",
+    "notifications": "#DFA044",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Kansas City Chiefs",
+    "systemNavigation": "#A51815",
+    "selectedItems": "#FFFFFF",
+    "presenceIndication": "#FFE21F",
+    "notifications": "#FF5555",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Kawaii",
+    "systemNavigation": "#FBFBFB",
+    "selectedItems": "#F9C6D6",
+    "presenceIndication": "#F0A2B8",
+    "notifications": "#F0A2B8",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Kayako Minimal",
+    "systemNavigation": "#312a3c",
+    "selectedItems": "#312A3C",
+    "presenceIndication": "#F58D8C",
+    "notifications": "#F58D8C",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Kill Bill",
+    "systemNavigation": "#FDE13A",
+    "selectedItems": "#000000",
+    "presenceIndication": "#E72D25",
+    "notifications": "#E72D25",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Kimbie",
+    "systemNavigation": "#F3E3CD",
+    "selectedItems": "#F3951D",
+    "presenceIndication": "#DA3D61",
+    "notifications": "#F26328",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "KKBOX",
+    "systemNavigation": "#00AEDF",
+    "selectedItems": "#C5CC13",
+    "presenceIndication": "#2DEBAE",
+    "notifications": "#EE2B74",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "KKTOWN",
+    "systemNavigation": "#FFffff",
+    "selectedItems": "#FFffff",
+    "presenceIndication": "#17B5DA",
+    "notifications": "#17B5DA",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "KKTV",
+    "systemNavigation": "#551127",
+    "selectedItems": "#79092b",
+    "presenceIndication": "#f04b6e",
+    "notifications": "#b40f42",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Laravel",
+    "systemNavigation": "#F56262",
+    "selectedItems": "#424242",
+    "presenceIndication": "#F5F5F5",
+    "notifications": "#424242",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Laravel Light",
+    "systemNavigation": "#FB503B",
+    "selectedItems": "#FB503B",
+    "presenceIndication": "#FB503B",
+    "notifications": "#424242",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Latte",
+    "systemNavigation": "#C17F46",
+    "selectedItems": "#CFA677",
+    "presenceIndication": "#EAECF1",
+    "notifications": "#EAECF1",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Latte Time",
+    "systemNavigation": "#d6b498",
+    "selectedItems": "#c2804a",
+    "presenceIndication": "#009917",
+    "notifications": "#d95b5b",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Librato",
+    "systemNavigation": "#555555",
+    "selectedItems": "#0F80AA",
+    "presenceIndication": "#99D04A",
+    "notifications": "#DCAF1B",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Light Blue",
+    "systemNavigation": "#7D949E",
+    "selectedItems": "#FFFFFF",
+    "presenceIndication": "#B3FF00",
+    "notifications": "#748991",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Lightning",
+    "systemNavigation": "#e0e5ee",
+    "selectedItems": "#d8edff",
+    "presenceIndication": "#4bca81",
+    "notifications": "#c23934",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Linux Mint Y Dark",
+    "systemNavigation": "#2f2f2f",
+    "selectedItems": "#8fa876",
+    "presenceIndication": "#818181",
+    "notifications": "#8fa876",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Luizalabs",
+    "systemNavigation": "#0083CA",
+    "selectedItems": "#B26500",
+    "presenceIndication": "#FF9000",
+    "notifications": "#FF9000",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "macOs",
+    "systemNavigation": "#DAD8DA",
+    "selectedItems": "#D3DFE3",
+    "presenceIndication": "#1682FB",
+    "notifications": "#34C749",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "MADSOFT",
+    "systemNavigation": "#3A2A45",
+    "selectedItems": "#8A7A95",
+    "presenceIndication": "#22CC88",
+    "notifications": "#CC2288",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Makers",
+    "systemNavigation": "#592D86",
+    "selectedItems": "#8F6DB0",
+    "presenceIndication": "#FFFFFF",
+    "notifications": "#EB4D5C",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Material",
+    "systemNavigation": "#263238",
+    "selectedItems": "#263238",
+    "presenceIndication": "#40c4ff",
+    "notifications": "#ff5252",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Material Blue Grey",
+    "systemNavigation": "#546E7A",
+    "selectedItems": "#90A4AE",
+    "presenceIndication": "#B2FF59",
+    "notifications": "#EF5350",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Material Dark Blue Grey",
+    "systemNavigation": "#212121",
+    "selectedItems": "#607D8B",
+    "presenceIndication": "#607D8B",
+    "notifications": "#607D8B",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Material Dark Indigo",
+    "systemNavigation": "#212121",
+    "selectedItems": "#3F51B5",
+    "presenceIndication": "#3F51B5",
+    "notifications": "#3F51B5",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Material Indigo",
+    "systemNavigation": "#303F9F",
+    "selectedItems": "#303F9F",
+    "presenceIndication": "#B2FF59",
+    "notifications": "#9FA8DA",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Mautic",
+    "systemNavigation": "#500ba3",
+    "selectedItems": "#f0b31a",
+    "presenceIndication": "#f0b31a",
+    "notifications": "#a92ab0",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Mean Green",
+    "systemNavigation": "#19780C",
+    "selectedItems": "#070708",
+    "presenceIndication": "#F7FF00",
+    "notifications": "#FF8669",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "MetaFilter",
+    "systemNavigation": "#267aaf",
+    "selectedItems": "#7DB461",
+    "presenceIndication": "#7DB461",
+    "notifications": "#215F8B",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Metal Blue",
+    "systemNavigation": "#4D5561",
+    "selectedItems": "#515C6B",
+    "presenceIndication": "#B3CAF0",
+    "notifications": "#8097BD",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Midnight Pink",
+    "systemNavigation": "#16a085",
+    "selectedItems": "#1abc9c",
+    "presenceIndication": "#FF2A68",
+    "notifications": "#FF2A68",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Milligram.io",
+    "systemNavigation": "#FFFFFF",
+    "selectedItems": "#9B4DCA",
+    "presenceIndication": "#9B4DCA",
+    "notifications": "#9B4DCA",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Milwaukee Dark",
+    "systemNavigation": "#00A8E1",
+    "selectedItems": "#F7A800",
+    "presenceIndication": "#00A8E1",
+    "notifications": "#00A8E1",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Milwaukee Light",
+    "systemNavigation": "#00A8E1",
+    "selectedItems": "#0D2240",
+    "presenceIndication": "#F7A800",
+    "notifications": "#00A8E1",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Milwaukee Mid",
+    "systemNavigation": "#0D2240",
+    "selectedItems": "#F7A800",
+    "presenceIndication": "#F7A800",
+    "notifications": "#0D2240",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Mint",
+    "systemNavigation": "#333632",
+    "selectedItems": "#87CF3E",
+    "presenceIndication": "#87CF3E",
+    "notifications": "#68a030",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Minty",
+    "systemNavigation": "#076570",
+    "selectedItems": "#32b377",
+    "presenceIndication": "#bef200",
+    "notifications": "#F15340",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "mishaor",
+    "systemNavigation": "#a8a8a8",
+    "selectedItems": "#000000",
+    "presenceIndication": "#078500",
+    "notifications": "#bf0000",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "MockingBot",
+    "systemNavigation": "#1A2535",
+    "selectedItems": "#F55D54",
+    "presenceIndication": "#F6756D",
+    "notifications": "#F55D54",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Mojave Dark Mode Blue",
+    "systemNavigation": "#2e2e31",
+    "selectedItems": "#666668",
+    "presenceIndication": "#277df6",
+    "notifications": "#277df6",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Monokai",
+    "systemNavigation": "#2F2F2F",
+    "selectedItems": "#F92772",
+    "presenceIndication": "#66D9EF",
+    "notifications": "#BE84F2",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Monument",
+    "systemNavigation": "#076570",
+    "selectedItems": "#F79F66",
+    "presenceIndication": "#F79F66",
+    "notifications": "#F15340",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Myplanet",
+    "systemNavigation": "#9292A8",
+    "selectedItems": "#F25930",
+    "presenceIndication": "#F25930",
+    "notifications": "#D5315C",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "N64",
+    "systemNavigation": "#0047b3",
+    "selectedItems": "#db3236",
+    "presenceIndication": "#FFFF00",
+    "notifications": "#db3236",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Naked Apartments",
+    "systemNavigation": "#CCCCCC",
+    "selectedItems": "#3F9DBC",
+    "presenceIndication": "#3F9DBC",
+    "notifications": "#BE3410",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Netflix",
+    "systemNavigation": "#8E0E00",
+    "selectedItems": "#8E0E00",
+    "presenceIndication": "#B01D0C",
+    "notifications": "#8E0E00",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "newride.tech",
+    "systemNavigation": "#000000",
+    "selectedItems": "#355C7D",
+    "presenceIndication": "#b82601",
+    "notifications": "#EFC000",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Nitro Marketing Digital",
+    "systemNavigation": "#157477",
+    "selectedItems": "#e4e4e4",
+    "presenceIndication": "#5ae043",
+    "notifications": "#1de2e7",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Nitronews",
+    "systemNavigation": "#3464d4",
+    "selectedItems": "#FF6600",
+    "presenceIndication": "#00C19B",
+    "notifications": "#FF6600",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Nord",
+    "systemNavigation": "#3B4252",
+    "selectedItems": "#88C0D0",
+    "presenceIndication": "#A3BE8C",
+    "notifications": "#81A1C1",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Numix",
+    "systemNavigation": "#2d2d2d",
+    "selectedItems": "#2d2d2d",
+    "presenceIndication": "#d64937",
+    "notifications": "#d64937",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Ochin",
+    "systemNavigation": "#2C3849",
+    "selectedItems": "#6698C8",
+    "presenceIndication": "#94E864",
+    "notifications": "#78AF8F",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Oktavilla",
+    "systemNavigation": "#F9F6F1",
+    "selectedItems": "#FF3300",
+    "presenceIndication": "#FF3300",
+    "notifications": "#B3D4FD",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "One Dark",
+    "systemNavigation": "#272C33",
+    "selectedItems": "#31363F",
+    "presenceIndication": "#20B684",
+    "notifications": "#528BFF",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "OpenData.cz",
+    "systemNavigation": "#034F75",
+    "selectedItems": "#ffffff",
+    "presenceIndication": "#99D04A",
+    "notifications": "#ff9800",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "osTicket",
+    "systemNavigation": "#F99A3F",
+    "selectedItems": "#F99A3F",
+    "presenceIndication": "#FFFFFF",
+    "notifications": "#F9A55A",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Pastel",
+    "systemNavigation": "#89cff0",
+    "selectedItems": "#FEC8D8",
+    "presenceIndication": "#FFFFFF",
+    "notifications": "#8F6DB0",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Peter Sellers",
+    "systemNavigation": "#0A2440",
+    "selectedItems": "#639DD4",
+    "presenceIndication": "#94E864",
+    "notifications": "#5990CF",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Phone Box",
+    "systemNavigation": "#003D67",
+    "selectedItems": "#FFFFFF",
+    "presenceIndication": "#0099FF",
+    "notifications": "#006752",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Photon",
+    "systemNavigation": "#dddddd",
+    "selectedItems": "#dddddd",
+    "presenceIndication": "#ff6600",
+    "notifications": "#ff6600",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "PHP",
+    "systemNavigation": "#4F5B93",
+    "selectedItems": "#4F5B93",
+    "presenceIndication": "#4F5B93",
+    "notifications": "#F15340",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Pinnaca",
+    "systemNavigation": "#4c4c4c",
+    "selectedItems": "#d43f27",
+    "presenceIndication": "#ffffff",
+    "notifications": "#253c4e",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Pittsburgh Penguins",
+    "systemNavigation": "#ffffff",
+    "selectedItems": "#000000",
+    "presenceIndication": "#ffff00",
+    "notifications": "#000000",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "PlayStation",
+    "systemNavigation": "#0072CE",
+    "selectedItems": "#0072ce",
+    "presenceIndication": "#FFDA00",
+    "notifications": "#FFDA00",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "PlayStation Classic",
+    "systemNavigation": "#B1B3B3",
+    "selectedItems": "#63666a",
+    "presenceIndication": "#0072ce",
+    "notifications": "#0072ce",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "plug.dj",
+    "systemNavigation": "#282C35",
+    "selectedItems": "#925AFF",
+    "presenceIndication": "#89BE6C",
+    "notifications": "#DB182E",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Polygon",
+    "systemNavigation": "#920A3D",
+    "selectedItems": "#2E0002",
+    "presenceIndication": "#FFFFFF",
+    "notifications": "#610A29",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Polymer",
+    "systemNavigation": "#7986CB",
+    "selectedItems": "#FE528C",
+    "presenceIndication": "#2DEBAE",
+    "notifications": "#FE528C",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "PouchDB",
+    "systemNavigation": "#EEEEEE",
+    "selectedItems": "#FA3649",
+    "presenceIndication": "#60D156",
+    "notifications": "#FA3649",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Product Hunt",
+    "systemNavigation": "#EDECEB",
+    "selectedItems": "#DA552F",
+    "presenceIndication": "#DA552F",
+    "notifications": "#FF8669",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Purple Daydream",
+    "systemNavigation": "#2d274f",
+    "selectedItems": "#0076bf",
+    "presenceIndication": "#94E864",
+    "notifications": "#78AF8F",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Put.io",
+    "systemNavigation": "#FDCE45",
+    "selectedItems": "#FDCE45",
+    "presenceIndication": "#1FAE7D",
+    "notifications": "#1FAE7D",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Python",
+    "systemNavigation": "#FFD43B",
+    "selectedItems": "#FFD43B",
+    "presenceIndication": "#FFE873",
+    "notifications": "#FFD43B",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Railway Clock",
+    "systemNavigation": "#FFFFFF",
+    "selectedItems": "#E0E0E0",
+    "presenceIndication": "#E1382F",
+    "notifications": "#E1382F",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "REDAXO",
+    "systemNavigation": "#283542",
+    "selectedItems": "#4b9ad9",
+    "presenceIndication": "#3bb594",
+    "notifications": "#EB4D5C",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Reddit",
+    "systemNavigation": "#CEE3F8",
+    "selectedItems": "#B3CCE6",
+    "presenceIndication": "#38978D",
+    "notifications": "#FF7500",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Retro Monochrome Terminal",
+    "systemNavigation": "#000000",
+    "selectedItems": "#006600",
+    "presenceIndication": "#ff0000",
+    "notifications": "#ff0000",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "RubyConf",
+    "systemNavigation": "#C10800",
+    "selectedItems": "#FFB400",
+    "presenceIndication": "#FF2B22",
+    "notifications": "#FF2B22",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Saiku Analytics",
+    "systemNavigation": "#AE1817",
+    "selectedItems": "#232323",
+    "presenceIndication": "#333333",
+    "notifications": "#232323",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "SeatGeek",
+    "systemNavigation": "#1673E6",
+    "selectedItems": "#78D30A",
+    "presenceIndication": "#78d30a",
+    "notifications": "#D34C4C",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "ShiftNudge",
+    "systemNavigation": "#191919",
+    "selectedItems": "#EE0055",
+    "presenceIndication": "#FF512F",
+    "notifications": "#FF512F",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Shopify",
+    "systemNavigation": "#3E313C",
+    "selectedItems": "#108043",
+    "presenceIndication": "#50B83C",
+    "notifications": "#9C6ADE",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Sky Blue",
+    "systemNavigation": "#62A5BF",
+    "selectedItems": "#1A91BD",
+    "presenceIndication": "#38978D",
+    "notifications": "#EB4D5C",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Skype",
+    "systemNavigation": "#39B1DF",
+    "selectedItems": "#C7EDFC",
+    "presenceIndication": "#7FBA00",
+    "notifications": "#FF8C00",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Slack White",
+    "systemNavigation": "#FFFFFF",
+    "selectedItems": "#FFFFFF",
+    "presenceIndication": "#93CC93",
+    "notifications": "#2288CC",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Slack.com",
+    "systemNavigation": "#453068",
+    "selectedItems": "#3FBA91",
+    "presenceIndication": "#3FBA91",
+    "notifications": "#FF3E88",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Smooch.io",
+    "systemNavigation": "#1a123b",
+    "selectedItems": "#a347b7",
+    "presenceIndication": "#d15fea",
+    "notifications": "#A347B7",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Snazzy",
+    "systemNavigation": "#2D2D2D",
+    "selectedItems": "#ff5c57",
+    "presenceIndication": "#5af78e",
+    "notifications": "#57c7ff",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Social Tables Blue",
+    "systemNavigation": "#65A0D6",
+    "selectedItems": "#49C6B7",
+    "presenceIndication": "#9ECD75",
+    "notifications": "#E6615D",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Social Tables Pink",
+    "systemNavigation": "#CB5599",
+    "selectedItems": "#49C6B7",
+    "presenceIndication": "#9ECD75",
+    "notifications": "#E6615D",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "SocialSign.in",
+    "systemNavigation": "#112539",
+    "selectedItems": "#2DA89C",
+    "presenceIndication": "#2DEBAE",
+    "notifications": "#2DEBAE",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Solanum",
+    "systemNavigation": "#452842",
+    "selectedItems": "#8C5888",
+    "presenceIndication": "#D0FF00",
+    "notifications": "#889100",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Solarized",
+    "systemNavigation": "#EEE8D5",
+    "selectedItems": "#93A1A1",
+    "presenceIndication": "#2AA198",
+    "notifications": "#DC322F",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Solarized Dark",
+    "systemNavigation": "#002B36",
+    "selectedItems": "#B58900",
+    "presenceIndication": "#2AA198",
+    "notifications": "#DC322F",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Son of Obsidian",
+    "systemNavigation": "#2F393C",
+    "selectedItems": "#293134",
+    "presenceIndication": "#EC7600",
+    "notifications": "#EC7600",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Space Gray",
+    "systemNavigation": "#2C3849",
+    "selectedItems": "#B04C58",
+    "presenceIndication": "#94E864",
+    "notifications": "#78AF8F",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Spotify",
+    "systemNavigation": "#1A1919",
+    "selectedItems": "#EDEBE6",
+    "presenceIndication": "#7DBA4A",
+    "notifications": "#7DBA4A",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Spreadfamily",
+    "systemNavigation": "#DDDDDD",
+    "selectedItems": "#ff5d02",
+    "presenceIndication": "#28a05a",
+    "notifications": "#ff5d02",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Spring Tree",
+    "systemNavigation": "#EB4D5C",
+    "selectedItems": "#A6D6A1",
+    "presenceIndication": "#3C3865",
+    "notifications": "#F18E2C",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "SQOOL by Unowhy",
+    "systemNavigation": "#073c57",
+    "selectedItems": "#006494",
+    "presenceIndication": "#00A6FB",
+    "notifications": "#EB4D5C",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Starbucks",
+    "systemNavigation": "#0A6242",
+    "selectedItems": "#3D3935",
+    "presenceIndication": "#3D3935",
+    "notifications": "#3D3935",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Stark Contrast",
+    "systemNavigation": "#A51C24",
+    "selectedItems": "#FFFFFF",
+    "presenceIndication": "#FFFFFF",
+    "notifications": "#FFFF00",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "StreetEasy",
+    "systemNavigation": "#ffffff",
+    "selectedItems": "#236ABE",
+    "presenceIndication": "#236ABE",
+    "notifications": "#BE3410",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Summer Craze",
+    "systemNavigation": "#23A61C",
+    "selectedItems": "#FFFFFF",
+    "presenceIndication": "#F7FF00",
+    "notifications": "#F7FF00",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Symfony",
+    "systemNavigation": "#000000",
+    "selectedItems": "#7aba20",
+    "presenceIndication": "#7aba20",
+    "notifications": "#0088cc",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "System76",
+    "systemNavigation": "#48b9c7",
+    "selectedItems": "#faa41a",
+    "presenceIndication": "#26d076",
+    "notifications": "#dc4405",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Team Pizza",
+    "systemNavigation": "#534C55",
+    "selectedItems": "#FFB24C",
+    "presenceIndication": "#B8E986",
+    "notifications": "#FF884E",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Terminal",
+    "systemNavigation": "#000000",
+    "selectedItems": "#FFFFFF",
+    "presenceIndication": "#00A400",
+    "notifications": "#5858FE",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "The Changelog",
+    "systemNavigation": "#4A4C4D",
+    "selectedItems": "#428BCA",
+    "presenceIndication": "#67D044",
+    "notifications": "#DE495B",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "The Incomparable",
+    "systemNavigation": "#1B1C5B",
+    "selectedItems": "#8E3441",
+    "presenceIndication": "#2ACB46",
+    "notifications": "#F5804F",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Thinkific",
+    "systemNavigation": "#072333",
+    "selectedItems": "#072333",
+    "presenceIndication": "#1b9eea",
+    "notifications": "#1b9eea",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Thoroughcare",
+    "systemNavigation": "#245b61",
+    "selectedItems": "#72d4c0",
+    "presenceIndication": "#bef200",
+    "notifications": "#F15340",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Tomorrow",
+    "systemNavigation": "#282a2e",
+    "selectedItems": "#282a2e",
+    "presenceIndication": "#5f89ac",
+    "notifications": "#5f89ac",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Trello",
+    "systemNavigation": "#026AA7",
+    "selectedItems": "#5BA4CF",
+    "presenceIndication": "#61BD4F",
+    "notifications": "#EB5A46",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Tron",
+    "systemNavigation": "#000000",
+    "selectedItems": "#1EB8EB",
+    "presenceIndication": "#1EB8EB",
+    "notifications": "#1EB8EB",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Trulia",
+    "systemNavigation": "#2D9A48",
+    "selectedItems": "#1B5E48",
+    "presenceIndication": "#1B5E48",
+    "notifications": "#EB4D5C",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Twitch",
+    "systemNavigation": "#6441a4",
+    "selectedItems": "#6441a4",
+    "presenceIndication": "#6441a4",
+    "notifications": "#6441a4",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Twitter",
+    "systemNavigation": "#55ACEE",
+    "selectedItems": "#E1E8ED",
+    "presenceIndication": "#E1E8ED",
+    "notifications": "#E1E8ED",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "TYPO3",
+    "systemNavigation": "#252525",
+    "selectedItems": "#252525",
+    "presenceIndication": "#79a548",
+    "notifications": "#c83c3c",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Uber Dark",
+    "systemNavigation": "#3A3A48",
+    "selectedItems": "#1EACC7",
+    "presenceIndication": "#79D6E6",
+    "notifications": "#4CC8DE",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Uber Light",
+    "systemNavigation": "#E6E6E9",
+    "selectedItems": "#1FBAD6",
+    "presenceIndication": "#1FBAD6",
+    "notifications": "#4CC8DE",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "University Of Texas",
+    "systemNavigation": "#333F48",
+    "selectedItems": "#FFFFFF",
+    "presenceIndication": "#94E864",
+    "notifications": "#00A3E0",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Vegas Golden Knights",
+    "systemNavigation": "#85714D",
+    "selectedItems": "#85714D",
+    "presenceIndication": "#E31837",
+    "notifications": "#E31837",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Visual Composer",
+    "systemNavigation": "#2C3849",
+    "selectedItems": "#203251",
+    "presenceIndication": "#a6c056",
+    "notifications": "#e9ae4c",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Vue.js",
+    "systemNavigation": "#42B983",
+    "selectedItems": "#42B983",
+    "presenceIndication": "#FFD41D",
+    "notifications": "#42B983",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "WameIn",
+    "systemNavigation": "#AD5B67",
+    "selectedItems": "#62B791",
+    "presenceIndication": "#68F798",
+    "notifications": "#694464",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Washington Huskies",
+    "systemNavigation": "#000000",
+    "selectedItems": "#E8D3A2",
+    "presenceIndication": "#E8D3A2",
+    "notifications": "#B7A57A",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Watermelon",
+    "systemNavigation": "#2B7164",
+    "selectedItems": "#51A050",
+    "presenceIndication": "#DA3D61",
+    "notifications": "#CECCB2",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Waze",
+    "systemNavigation": "#FFFFFF",
+    "selectedItems": "#93C4D3",
+    "presenceIndication": "#66CC33",
+    "notifications": "#173C4C",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "WeAreLATech",
+    "systemNavigation": "#f02109",
+    "selectedItems": "#f9fc00",
+    "presenceIndication": "#66ed00",
+    "notifications": "#ec34ff",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Wedgies",
+    "systemNavigation": "#333333",
+    "selectedItems": "#3F96CA",
+    "presenceIndication": "#3F96CA",
+    "notifications": "#EFC000",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Wegman",
+    "systemNavigation": "#B49FC2",
+    "selectedItems": "#5A30B0",
+    "presenceIndication": "#B358BF",
+    "notifications": "#BD72CC",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Wild Cherry",
+    "systemNavigation": "#FFB86C",
+    "selectedItems": "#E15D97",
+    "presenceIndication": "#35BA66",
+    "notifications": "#0AACC5",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "WillowTree - Dark",
+    "systemNavigation": "#1BD9C4",
+    "selectedItems": "#1BD9C4",
+    "presenceIndication": "#1bd9c4",
+    "notifications": "#DB6668",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "WillowTree - Light",
+    "systemNavigation": "#1BD9C4",
+    "selectedItems": "#1BD9C4",
+    "presenceIndication": "#1bd9c4",
+    "notifications": "#DB6668",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Windows 3.1",
+    "systemNavigation": "#C0C0C0",
+    "selectedItems": "#001F7E",
+    "presenceIndication": "#001F7E",
+    "notifications": "#C0C0C0",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Windows 95",
+    "systemNavigation": "#001F7E",
+    "selectedItems": "#001F7E",
+    "presenceIndication": "#C0C0C0",
+    "notifications": "#C0C0C0",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Windows XP",
+    "systemNavigation": "#0054E3",
+    "selectedItems": "#0054E3",
+    "presenceIndication": "#ED6D3A",
+    "notifications": "#ED6D3A",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "WordPress",
+    "systemNavigation": "#191e23",
+    "selectedItems": "#0073AA",
+    "presenceIndication": "#46b450",
+    "notifications": "#D54E21",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Work Hard",
+    "systemNavigation": "#444A47",
+    "selectedItems": "#D39B46",
+    "presenceIndication": "#99D04A",
+    "notifications": "#DB6668",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "xUnit.net",
+    "systemNavigation": "#444A47",
+    "selectedItems": "#663333",
+    "presenceIndication": "#E0E066",
+    "notifications": "#DB6668",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Yeoman",
+    "systemNavigation": "#076570",
+    "selectedItems": "#F5D087",
+    "presenceIndication": "#DD002A",
+    "notifications": "#F15340",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Yosemite iTunes",
+    "systemNavigation": "#FAFAFA",
+    "selectedItems": "#0F82FF",
+    "presenceIndication": "#62D962",
+    "notifications": "#E92242",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Yotsuba",
+    "systemNavigation": "#f0e0d6",
+    "selectedItems": "#f0e0d6",
+    "presenceIndication": "#0000ee",
+    "notifications": "#0000ee",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Yotsuba B",
+    "systemNavigation": "#d6daf0",
+    "selectedItems": "#d6daf0",
+    "presenceIndication": "#34345c",
+    "notifications": "#34345c",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Youtube",
+    "systemNavigation": "#CC181E",
+    "selectedItems": "#CC181E",
+    "presenceIndication": "#CC181E",
+    "notifications": "#E04A4D",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Zebra",
+    "systemNavigation": "#424242",
+    "selectedItems": "#424242",
+    "presenceIndication": "#2ecc71",
+    "notifications": "#e74c3c",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Zeplin",
+    "systemNavigation": "#FFFFFF",
+    "selectedItems": "#FDBD39",
+    "presenceIndication": "#A4BF36",
+    "notifications": "#EE6723",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Ziik.io",
+    "systemNavigation": "#ffffff",
+    "selectedItems": "#0279f9",
+    "presenceIndication": "#0279f9",
+    "notifications": "#0279F9",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  },
+  {
+    "name": "Zillow",
+    "systemNavigation": "#6BB700",
+    "selectedItems": "#6BB700",
+    "presenceIndication": "#6BB700",
+    "notifications": "#EB4D5C",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle"
+    ]
+  }
+]

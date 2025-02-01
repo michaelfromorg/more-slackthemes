@@ -1,27 +1,10 @@
 // lib/theme-utils.ts
-import { ParsedThemeColors, SlackTheme, Theme } from "@/types/theme";
+import { InferredColors, RawTheme, Theme } from "@/types/theme";
 import chroma from "chroma-js";
 
-export function parseThemeColors(colors: string): ParsedThemeColors {
-  const colorArray = colors.split(",");
-  const menuBg = colorArray[1]; // Use the secondary color as workspace/top nav bg
-  const columnBg = chroma(menuBg).brighten(0.3).hex(); // Lighten for main sidebar
-
-  return {
-    columnBg, // Lighter background for channel sidebar
-    menuBg, // Darker background for workspace switcher
-    activeItem: colorArray[2],
-    activeItemText: colorArray[3],
-    hoverItem: colorArray[4],
-    textColor: colorArray[5],
-    activePresence: colorArray[6],
-    mentionBadge: colorArray[7],
-    // TODO(michaelfromyeg): are these real?
-    topNavBg: menuBg, // Match workspace switcher background
-    topNavText: colorArray[5], // Use main text color
-  };
-}
-
+/**
+ * Creates a URL-friendly slug from a theme name
+ */
 export function createSlug(name: string): string {
   return name
     .toLowerCase()
@@ -29,26 +12,100 @@ export function createSlug(name: string): string {
     .replace(/\s+/g, "-");
 }
 
-export function processTheme(theme: SlackTheme): Theme {
+/**
+ * Infers necessary colors from base Slack theme colors
+ */
+export function inferColors(
+  systemNavigation: string,
+  selectedItems: string
+): InferredColors {
   return {
-    ...theme,
-    slug: createSlug(theme.name),
-    parsedColors: parseThemeColors(theme.colors),
+    // Text colors - use white or black based on contrast
+    systemNavigationText:
+      chroma.contrast(systemNavigation, "white") > 4.5 ? "#FFFFFF" : "#000000",
+    selectedItemsText:
+      chroma.contrast(selectedItems, "white") > 4.5 ? "#FFFFFF" : "#000000",
+
+    // Sidebar states
+    sidebarHover: chroma(systemNavigation).brighten(0.2).hex(),
+    sidebarActive: chroma(systemNavigation).darken(0.1).hex(),
   };
 }
 
+/**
+ * Creates gradient colors if window gradient is enabled
+ */
+export function createGradient(systemNavigation: string): {
+  start: string;
+  end: string;
+} {
+  return {
+    start: chroma(systemNavigation).brighten(0.2).hex(),
+    end: chroma(systemNavigation).darken(0.2).hex(),
+  };
+}
+
+/**
+ * Processes a raw theme from CSV into our application format
+ */
+export function processTheme(rawTheme: RawTheme): Theme {
+  const inferred = inferColors(
+    rawTheme.systemNavigation,
+    rawTheme.selectedItems
+  );
+
+  // Add gradient colors if enabled
+  if (rawTheme.windowGradient) {
+    const gradient = createGradient(rawTheme.systemNavigation);
+    inferred.gradientStart = gradient.start;
+    inferred.gradientEnd = gradient.end;
+  }
+
+  return {
+    name: rawTheme.name,
+    slug: createSlug(rawTheme.name),
+    colors: {
+      systemNavigation: rawTheme.systemNavigation,
+      selectedItems: rawTheme.selectedItems,
+      presenceIndication: rawTheme.presenceIndication,
+      notifications: rawTheme.notifications,
+      inferred,
+    },
+    windowGradient: rawTheme.windowGradient,
+    darkerSidebars: rawTheme.darkerSidebars,
+    submitter: rawTheme.submitterName
+      ? {
+          name: rawTheme.submitterName,
+          link: rawTheme.submitterLink,
+        }
+      : undefined,
+    tags: rawTheme.tags ? rawTheme.tags.map((tag) => tag.trim()) : [],
+  };
+}
+
+/**
+ * Generates the theme string for Slack
+ */
+export function generateThemeString(theme: Theme): string {
+  return `${theme.colors.systemNavigation},${theme.colors.selectedItems},${
+    theme.colors.presenceIndication
+  },${theme.colors.notifications}${theme.windowGradient ? ",gradient" : ""}`;
+}
+
+/**
+ * Mix two colors with a given ratio
+ */
 export function mixColors(
   color1: string,
   color2: string,
   ratio: number
 ): string {
-  return chroma.mix(color2, color1, ratio, "rgb").css();
+  return chroma.mix(color1, color2, ratio, "rgb").hex();
 }
 
+/**
+ * Add alpha channel to a color
+ */
 export function alphaColor(color: string, alpha: number): string {
   return chroma(color).alpha(alpha).css();
-}
-
-export function rgbColor(color: string): string {
-  return chroma(color).css();
 }

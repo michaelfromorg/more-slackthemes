@@ -1,7 +1,7 @@
 "use client";
 
+import { alphaColor } from "@/lib/theme-utils";
 import useThemeStore from "@/store/theme-store";
-import chroma from "chroma-js";
 import { useEffect } from "react";
 import { ChannelSidebar } from "./ChannelSidebar";
 import { TeamSidebar } from "./TeamSidebar";
@@ -13,7 +13,8 @@ interface LayoutProps {
 
 export function Layout({ children }: LayoutProps) {
   const { currentTheme, initializeFromUrl } = useThemeStore();
-  const { parsedColors } = currentTheme;
+  const { colors, windowGradient } = currentTheme;
+  const { inferred } = colors;
 
   useEffect(() => {
     initializeFromUrl();
@@ -23,20 +24,33 @@ export function Layout({ children }: LayoutProps) {
     <div className="h-screen flex flex-col">
       <TopNav />
       <div className="flex-1 flex min-h-0">
+        {/* Team Sidebar - Hidden on mobile */}
         <div className="hidden lg:block h-full">
           <TeamSidebar />
         </div>
+
         <div className="flex-1 flex min-w-0">
+          {/* Channel Sidebar - Hidden on mobile, shown via MobileNav */}
           <div className="hidden lg:block h-full">
             <ChannelSidebar />
           </div>
 
-          <main className="flex-1 flex flex-col min-w-0 bg-white">
+          {/* Main Content Area */}
+          <main
+            className="flex-1 flex flex-col min-w-0 bg-white"
+            style={
+              windowGradient
+                ? { boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)" }
+                : undefined
+            }
+          >
             <div className="flex-1 overflow-auto bg-white">{children}</div>
+
+            {/* Footer */}
             <div
               className="px-4 py-2 text-sm border-t flex flex-col lg:flex-row justify-between items-center gap-2 bg-white text-gray-900"
               style={{
-                borderColor: chroma(parsedColors.textColor).alpha(0.1).css(),
+                borderColor: alphaColor(inferred.systemNavigationText, 0.1),
               }}
             >
               <div className="text-center lg:text-left">
@@ -52,7 +66,7 @@ export function Layout({ children }: LayoutProps) {
                 {"."}
               </div>
               <div className="text-center lg:text-right">
-                Forked and furthered by{" "}
+                Made by{" "}
                 <a
                   href="https://twitter.com/michaelfromyeg"
                   className="font-bold underline hover:no-underline"
@@ -60,6 +74,15 @@ export function Layout({ children }: LayoutProps) {
                   rel="noopener noreferrer"
                 >
                   Michael DeMarco
+                </a>
+                {"."}{" "}
+                <a
+                  href="https://github.com/michaelfromorg/more-slackthemes"
+                  className="font-bold underline hover:no-underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Source code
                 </a>
                 {"."}
               </div>

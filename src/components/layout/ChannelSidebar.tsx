@@ -1,3 +1,4 @@
+// components/ChannelSidebar.tsx
 import useThemeStore from "@/store/theme-store";
 import { ChevronDown, Hash, MessageSquarePlus } from "lucide-react";
 import Avatar from "./Avatar";
@@ -6,18 +7,32 @@ import { TopSidebarSections } from "./SidebarSection";
 export function ChannelSidebar() {
   const { currentTheme, activeTag, getAllTags, getTagCount, setActiveTag } =
     useThemeStore();
-  const { parsedColors } = currentTheme;
+  const { colors, windowGradient } = currentTheme;
+  const {
+    systemNavigation,
+    selectedItems,
+    // presenceIndication,
+    notifications,
+    inferred,
+  } = colors;
   const allTags = getAllTags();
 
+  // Create background style based on whether gradient is enabled
+  const backgroundStyle =
+    windowGradient && inferred.gradientStart && inferred.gradientEnd
+      ? {
+          background: `linear-gradient(to bottom, ${inferred.gradientStart}, ${inferred.gradientEnd})`,
+        }
+      : {
+          backgroundColor: systemNavigation,
+        };
+
   return (
-    <div
-      className="w-60 flex flex-col h-full"
-      style={{ backgroundColor: parsedColors.columnBg }}
-    >
+    <div className="w-60 flex flex-col h-full" style={backgroundStyle}>
       {/* Workspace Header */}
       <button
         className="h-12 px-4 flex items-center justify-between hover:brightness-95"
-        style={{ color: parsedColors.textColor }}
+        style={{ color: inferred.systemNavigationText }}
       >
         <div className="flex items-center gap-2">
           <span className="font-bold">Slack Themes</span>
@@ -35,7 +50,7 @@ export function ChannelSidebar() {
         <div className="mb-6">
           <button
             className="w-full px-2 py-1 text-sm flex items-center justify-between hover:brightness-95"
-            style={{ color: parsedColors.textColor }}
+            style={{ color: inferred.systemNavigationText }}
           >
             <span>Channels</span>
             <ChevronDown className="w-3 h-3" />
@@ -46,11 +61,11 @@ export function ChannelSidebar() {
               className="w-full px-2 py-1 text-sm flex items-center justify-between hover:brightness-95"
               style={{
                 backgroundColor:
-                  activeTag === "general" ? parsedColors.activeItem : undefined,
+                  activeTag === "general" ? selectedItems : undefined,
                 color:
                   activeTag === "general"
-                    ? parsedColors.activeItemText
-                    : parsedColors.textColor,
+                    ? inferred.selectedItemsText
+                    : inferred.systemNavigationText,
               }}
               onClick={() => setActiveTag("general")}
             >
@@ -62,10 +77,7 @@ export function ChannelSidebar() {
                 <span
                   className="px-1.5 py-0.5 rounded text-xs font-bold"
                   style={{
-                    backgroundColor:
-                      activeTag === "general"
-                        ? undefined
-                        : parsedColors.mentionBadge,
+                    backgroundColor: notifications,
                     color: "#FFFFFF",
                   }}
                 >
@@ -83,13 +95,11 @@ export function ChannelSidebar() {
                   className="w-full px-2 py-1 text-sm flex items-center justify-between hover:brightness-95"
                   style={{
                     backgroundColor:
-                      activeTag === tag
-                        ? parsedColors.activeItem
-                        : "transparent",
+                      activeTag === tag ? selectedItems : "transparent",
                     color:
                       activeTag === tag
-                        ? parsedColors.activeItemText
-                        : parsedColors.textColor,
+                        ? inferred.selectedItemsText
+                        : inferred.systemNavigationText,
                   }}
                   onClick={() => setActiveTag(tag)}
                 >
@@ -101,10 +111,7 @@ export function ChannelSidebar() {
                     <span
                       className="px-1.5 py-0.5 rounded text-xs font-bold"
                       style={{
-                        backgroundColor:
-                          activeTag === tag
-                            ? undefined
-                            : parsedColors.mentionBadge,
+                        backgroundColor: notifications,
                         color: "#FFFFFF",
                       }}
                     >
@@ -120,7 +127,7 @@ export function ChannelSidebar() {
         <div className="mb-6">
           <button
             className="w-full px-2 py-1 text-sm flex items-center justify-between hover:brightness-95"
-            style={{ color: parsedColors.textColor }}
+            style={{ color: inferred.systemNavigationText }}
           >
             <span>Direct messages</span>
             <ChevronDown className="w-3 h-3" />
@@ -155,12 +162,17 @@ function DirectMessageItem({
   notifications,
 }: DirectMessageItemProps) {
   const { currentTheme } = useThemeStore();
-  const { parsedColors } = currentTheme;
+  const { colors } = currentTheme;
+  const {
+    notifications: notificationColor,
+    presenceIndication,
+    inferred,
+  } = colors;
 
   return (
     <button
       className="w-full px-2 py-1 text-sm flex items-center justify-between hover:bg-black/5"
-      style={{ color: parsedColors.textColor }}
+      style={{ color: inferred.systemNavigationText }}
     >
       <div className="flex items-center gap-2">
         <div className="relative">
@@ -170,11 +182,11 @@ function DirectMessageItem({
               className="absolute bottom-0 right-0 w-2 h-2 rounded-full border-2"
               style={{
                 backgroundColor: isActive
-                  ? parsedColors.activePresence
+                  ? presenceIndication
                   : isDND
                   ? "#F40B0B"
                   : "#949494",
-                borderColor: parsedColors.columnBg,
+                borderColor: inferred.systemNavigationText,
               }}
             />
           )}
@@ -186,7 +198,7 @@ function DirectMessageItem({
         <span
           className="px-1.5 py-0.5 rounded text-xs font-bold"
           style={{
-            backgroundColor: parsedColors.mentionBadge,
+            backgroundColor: notificationColor,
             color: "#FFFFFF",
           }}
         >
