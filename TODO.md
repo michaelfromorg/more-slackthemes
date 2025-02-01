@@ -20,4 +20,4 @@
 - [ ] Add top technologies
 - [ ] Add major communities
 - [ ] Accessibility
-- [ ] Make CTRL+K say that right thing based on your platform
+- [x] Make CTRL+K say that right thing based on your platform
