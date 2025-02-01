@@ -19,3 +19,5 @@
 - [ ] Add F500 companies, top start-ups
 - [ ] Add top technologies
 - [ ] Add major communities
+- [ ] Accessibility
+- [ ] Make CTRL+K say that right thing based on your platform

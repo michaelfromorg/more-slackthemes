@@ -1,11 +1,8 @@
 import { NOTION_FORM_URL } from "@/lib/constants";
+import { getShortcutText } from "@/lib/utils";
 import useThemeStore from "@/store/theme-store";
 import chroma from "chroma-js";
-import {
-  Search,
-  User,
-  X
-} from "lucide-react";
+import { Search, User, X } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { MobileNav } from "./MobileNav";
 
@@ -15,19 +12,24 @@ export function TopNav() {
   const [isFocused, setIsFocused] = useState(false);
   const searchInputRef = useRef<HTMLInputElement>(null);
 
+  const [shortcutText] = useState(getShortcutText("K"));
+
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
-      if ((event.metaKey || event.ctrlKey) && event.key === 'k') {
+      if ((event.metaKey || event.ctrlKey) && event.key === "k") {
         event.preventDefault();
         searchInputRef.current?.focus();
-      } else if (event.key === 'Escape' && document.activeElement === searchInputRef.current) {
+      } else if (
+        event.key === "Escape" &&
+        document.activeElement === searchInputRef.current
+      ) {
         searchInputRef.current?.blur();
-        setSearchQuery('');
+        setSearchQuery("");
       }
     };
 
-    document.addEventListener('keydown', handleKeyDown);
-    return () => document.removeEventListener('keydown', handleKeyDown);
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
   }, [setSearchQuery]);
 
   return (
@@ -46,7 +48,9 @@ export function TopNav() {
 
       <div className="flex-1 flex justify-center items-center">
         <div
-          className={`flex items-center w-full max-w-2xl h-8 px-3 rounded text-sm relative ${isFocused ? "ring-1 ring-white/30" : ""}`}
+          className={`flex items-center w-full max-w-2xl h-8 px-3 rounded text-sm relative ${
+            isFocused ? "ring-1 ring-white/30" : ""
+          }`}
           style={{
             backgroundColor: chroma(parsedColors.textColor).alpha(0.05).css(),
             color: parsedColors.textColor,
@@ -60,7 +64,9 @@ export function TopNav() {
             ref={searchInputRef}
             type="text"
             className="flex-1 bg-transparent outline-none placeholder:text-inherit placeholder:opacity-50"
-            placeholder="Search themes... (CTRL-K)"
+            placeholder={`Search themes... ${
+              shortcutText !== "" ? `(${shortcutText})` : ""
+            }`}
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             onFocus={() => setIsFocused(true)}
