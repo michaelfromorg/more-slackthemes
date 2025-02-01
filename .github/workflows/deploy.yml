@@ -28,6 +28,9 @@ jobs:
 
       - name: Build with Next.js
         run: npm run build
+        env:
+          NOTION_KEY: ${{ secrets.NOTION_KEY }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
