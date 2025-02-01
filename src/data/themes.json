@@ -1,19 +1,5 @@
 [
   {
-    "name": "360Channel",
-    "systemNavigation": "#E60A00",
-    "selectedItems": "#E60A00",
-    "presenceIndication": "#E64600",
-    "notifications": "#E60A00",
-    "windowGradient": false,
-    "darkerSidebars": false,
-    "submitterName": "paracycle",
-    "submitterLink": "https://github.com/paracycle/slackthemes",
-    "tags": [
-      "paracycle"
-    ]
-  },
-  {
     "name": "Afterglow",
     "systemNavigation": "#252525",
     "selectedItems": "#A36B31",
@@ -66,7 +52,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "company"
     ]
   },
   {
@@ -94,7 +81,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "school"
     ]
   },
   {
@@ -248,7 +236,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "school"
     ]
   },
   {
@@ -374,7 +363,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "mlb"
     ]
   },
   {
@@ -444,7 +434,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "nfl"
     ]
   },
   {
@@ -542,7 +533,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "nhl"
     ]
   },
   {
@@ -696,7 +688,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "company"
     ]
   },
   {
@@ -710,7 +703,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "company"
     ]
   },
   {
@@ -780,7 +774,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "classic"
     ]
   },
   {
@@ -808,7 +803,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "company"
     ]
   },
   {
@@ -836,7 +832,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "technology"
     ]
   },
   {
@@ -878,7 +875,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "technology"
     ]
   },
   {
@@ -906,7 +904,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "company"
     ]
   },
   {
@@ -920,7 +919,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "bundesliga"
     ]
   },
   {
@@ -948,7 +948,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "school"
     ]
   },
   {
@@ -1060,11 +1061,12 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "school"
     ]
   },
   {
-    "name": "Github",
+    "name": "GitHub",
     "systemNavigation": "#24292e",
     "selectedItems": "#e9f0f7",
     "presenceIndication": "#28a745",
@@ -1074,11 +1076,12 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "company"
     ]
   },
   {
-    "name": "Github Activity Graph",
+    "name": "GitHub Activity Graph",
     "systemNavigation": "#222222",
     "selectedItems": "#44A340",
     "presenceIndication": "#D6E685",
@@ -1088,7 +1091,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "company"
     ]
   },
   {
@@ -1102,7 +1106,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "company"
     ]
   },
   {
@@ -1116,7 +1121,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "company"
     ]
   },
   {
@@ -1186,7 +1192,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "classic"
     ]
   },
   {
@@ -1200,7 +1207,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "classic"
     ]
   },
   {
@@ -1382,7 +1390,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "technology"
     ]
   },
   {
@@ -1466,7 +1475,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "movies"
     ]
   },
   {
@@ -2040,7 +2050,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "company"
     ]
   },
   {
@@ -2152,7 +2163,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "classic"
     ]
   },
   {
@@ -2250,7 +2262,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "technology"
     ]
   },
   {
@@ -2278,7 +2291,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "nhl"
     ]
   },
   {
@@ -2292,7 +2306,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "company"
     ]
   },
   {
@@ -2306,7 +2321,9 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "company",
+      "retro"
     ]
   },
   {
@@ -2362,7 +2379,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "technology"
     ]
   },
   {
@@ -2418,7 +2436,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "technology"
     ]
   },
   {
@@ -2460,7 +2479,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "company"
     ]
   },
   {
@@ -2544,7 +2564,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "company"
     ]
   },
   {
@@ -2576,6 +2597,21 @@
     ]
   },
   {
+    "name": "Slack",
+    "systemNavigation": "#453068",
+    "selectedItems": "#3FBA91",
+    "presenceIndication": "#3FBA91",
+    "notifications": "#FF3E88",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle",
+      "company"
+    ]
+  },
+  {
     "name": "Slack White",
     "systemNavigation": "#FFFFFF",
     "selectedItems": "#FFFFFF",
@@ -2586,21 +2622,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
-    ]
-  },
-  {
-    "name": "Slack.com",
-    "systemNavigation": "#453068",
-    "selectedItems": "#3FBA91",
-    "presenceIndication": "#3FBA91",
-    "notifications": "#FF3E88",
-    "windowGradient": false,
-    "darkerSidebars": false,
-    "submitterName": "paracycle",
-    "submitterLink": "https://github.com/paracycle/slackthemes",
-    "tags": [
-      "paracycle"
+      "paracycle",
+      "company"
     ]
   },
   {
@@ -2754,7 +2777,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "company"
     ]
   },
   {
@@ -2810,7 +2834,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "company"
     ]
   },
   {
@@ -2950,7 +2975,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "company"
     ]
   },
   {
@@ -2992,7 +3018,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "company"
     ]
   },
   {
@@ -3034,7 +3061,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "company"
     ]
   },
   {
@@ -3048,7 +3076,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "company"
     ]
   },
   {
@@ -3076,7 +3105,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "company"
     ]
   },
   {
@@ -3090,7 +3120,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "company"
     ]
   },
   {
@@ -3104,7 +3135,23 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "school"
+    ]
+  },
+  {
+    "name": "University of Washington",
+    "systemNavigation": "#000000",
+    "selectedItems": "#E8D3A2",
+    "presenceIndication": "#E8D3A2",
+    "notifications": "#B7A57A",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "paracycle",
+    "submitterLink": "https://github.com/paracycle/slackthemes",
+    "tags": [
+      "paracycle",
+      "school"
     ]
   },
   {
@@ -3118,7 +3165,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "nhl"
     ]
   },
   {
@@ -3146,7 +3194,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "technology"
     ]
   },
   {
@@ -3155,20 +3204,6 @@
     "selectedItems": "#62B791",
     "presenceIndication": "#68F798",
     "notifications": "#694464",
-    "windowGradient": false,
-    "darkerSidebars": false,
-    "submitterName": "paracycle",
-    "submitterLink": "https://github.com/paracycle/slackthemes",
-    "tags": [
-      "paracycle"
-    ]
-  },
-  {
-    "name": "Washington Huskies",
-    "systemNavigation": "#000000",
-    "selectedItems": "#E8D3A2",
-    "presenceIndication": "#E8D3A2",
-    "notifications": "#B7A57A",
     "windowGradient": false,
     "darkerSidebars": false,
     "submitterName": "paracycle",
@@ -3202,7 +3237,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "company"
     ]
   },
   {
@@ -3216,7 +3252,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "technology"
     ]
   },
   {
@@ -3300,7 +3337,9 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "retro",
+      "technology"
     ]
   },
   {
@@ -3314,7 +3353,9 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "retro",
+      "technology"
     ]
   },
   {
@@ -3328,7 +3369,9 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "technology",
+      "retro"
     ]
   },
   {
@@ -3342,7 +3385,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "technology"
     ]
   },
   {
@@ -3430,7 +3474,7 @@
     ]
   },
   {
-    "name": "Youtube",
+    "name": "YouTube",
     "systemNavigation": "#CC181E",
     "selectedItems": "#CC181E",
     "presenceIndication": "#CC181E",
@@ -3440,7 +3484,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "company"
     ]
   },
   {
@@ -3496,7 +3541,8 @@
     "submitterName": "paracycle",
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
-      "paracycle"
+      "paracycle",
+      "company"
     ]
   }
 ]

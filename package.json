@@ -8,7 +8,9 @@
     "prebuild": "node --experimental-json-modules scripts/notion.js",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "serve": "npx serve@latest out",
+    "lint": "next lint",
+    "help": "next --help"
   },
   "dependencies": {
     "@notionhq/client": "^2.2.15",

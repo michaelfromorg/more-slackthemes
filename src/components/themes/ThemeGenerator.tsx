@@ -82,9 +82,10 @@ function generateSlackTheme(
     presenceIndication,
     notifications,
     windowGradient: useGradient,
+    darkerSidebars: false,
     submitterName: undefined,
     submitterLink: undefined,
-    tags: "generated",
+    tags: ["generated"],
   };
 }
 

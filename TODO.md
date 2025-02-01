@@ -1,8 +1,8 @@
 # TODO
 
-- [ ] Migrate to new Slack theme format
-  - [ ] Light sidebar, dark sidebar
-  - [ ] Gradients
+- [x] Migrate to new Slack theme format
+  - [x] Light sidebar, dark sidebar
+  - [x] Gradients
 - [ ] Slack fonts
 - [ ] Dark mode, for the whole app and for theme previews
 - [ ] DM mode: DM me for user feedback, DM Slackbot for jokes or something
