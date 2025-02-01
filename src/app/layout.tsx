@@ -1,6 +1,7 @@
 import { GoogleAnalytics } from "@/components/layout/GoogleAnalytics";
 import { Layout } from "@/components/layout/Layout";
 import { lato } from "@/lib/fonts";
+import { ThemeProvider } from "@/providers/ThemeProvider";
 import type { Metadata } from "next";
 import "./globals.css";
 
@@ -32,8 +33,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${lato.variable} font-sans`}>
-        <Layout>{children}</Layout>
-        <GoogleAnalytics />
+        <ThemeProvider defaultTheme="light" storageKey="theme-mode">
+          <Layout>{children}</Layout>
+          <GoogleAnalytics />
+        </ThemeProvider>
       </body>
     </html>
   );

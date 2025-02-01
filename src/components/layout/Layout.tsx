@@ -37,18 +37,18 @@ export function Layout({ children }: LayoutProps) {
 
           {/* Main Content Area */}
           <main
-            className="flex-1 flex flex-col min-w-0 bg-white"
+            className="flex-1 flex flex-col min-w-0"
             style={
               windowGradient
                 ? { boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)" }
                 : undefined
             }
           >
-            <div className="flex-1 overflow-auto bg-white">{children}</div>
+            <div className="flex-1 overflow-auto">{children}</div>
 
             {/* Footer */}
             <div
-              className="px-4 py-2 text-sm border-t flex flex-col lg:flex-row justify-between items-center gap-2 bg-white text-gray-900"
+              className="px-4 py-2 text-sm border-t flex flex-col lg:flex-row justify-between items-center gap-2 text-gray-500"
               style={{
                 borderColor: alphaColor(inferred.systemNavigationText, 0.1),
               }}

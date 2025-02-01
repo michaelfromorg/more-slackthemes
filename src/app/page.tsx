@@ -32,7 +32,7 @@ export default function Home() {
       <div className="flex-1 overflow-auto">
         {isMobile ? <ThemeGridMobile /> : <ThemeGrid />}
       </div>
-      <div className="flex flex-col sm:flex-row items-center justify-between gap-2 p-4">
+      <div className="flex flex-col sm:flex-row items-center justify-between gap-2">
         {isMobile ? <ThemeShareMobile /> : <ThemeShare />}
       </div>
     </div>

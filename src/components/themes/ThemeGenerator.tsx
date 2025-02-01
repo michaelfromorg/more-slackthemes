@@ -196,7 +196,6 @@ export function ThemeGenerator({ open, onOpenChange }: ThemeGeneratorProps) {
               <li>Selected Items color (from mid-range colors)</li>
               <li>Presence Indication (from mid-range colors)</li>
               <li>Notifications (from brightest colors)</li>
-              {useGradient && <li>Window gradient effect</li>}
             </ul>
           </p>
         </div>

@@ -139,14 +139,14 @@ export function ThemePreview({ theme, setActiveTag }: ThemePreviewProps) {
         </div>
 
         {/* Theme Information Section */}
-        <div className="p-2 space-y-2 bg-white border-t">
+        <div className="p-2 space-y-2 border-t">
           {/* Theme Name and Radio */}
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <RadioGroupItem value={theme.slug} id={theme.slug} />
               <label
                 htmlFor={theme.slug}
-                className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 text-gray-900"
+                className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
               >
                 {theme.name}
               </label>

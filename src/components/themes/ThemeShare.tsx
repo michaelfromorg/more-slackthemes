@@ -44,7 +44,7 @@ export function ThemeShare() {
   } into Slack to import this theme.`;
 
   return (
-    <div className="p-4 border-t bg-white w-full">
+    <div className="p-4 border-t w-full">
       <p className="text-sm text-muted-foreground mb-2">{description}</p>
       <div className="flex flex-col sm:flex-row gap-2 w-full">
         <div className="flex-1 min-w-0">
@@ -122,7 +122,7 @@ function ColorPreview({ label, color }: ColorPreviewProps) {
         style={{ backgroundColor: color }}
         title={color}
       />
-      <span className="text-xs text-gray-600">{label}</span>
+      <span className="text-xs text-gray-500">{label}</span>
     </div>
   );
 }
@@ -142,7 +142,7 @@ function GradientPreview({ start, end }: GradientPreviewProps) {
         }}
         title={`Gradient: ${start} → ${end}`}
       />
-      <span className="text-xs text-gray-600">Window Gradient</span>
+      <span className="text-xs text-gray-500">Window Gradient</span>
     </div>
   );
 }

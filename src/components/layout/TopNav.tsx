@@ -5,6 +5,7 @@ import useThemeStore from "@/store/theme-store";
 import { Search, User, X } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { MobileNav } from "./MobileNav";
+import { ThemeModeSwitch } from "./ThemeModeSwitch";
 
 export function TopNav() {
   const { currentTheme, searchQuery, setSearchQuery } = useThemeStore();
@@ -96,6 +97,7 @@ export function TopNav() {
       </div>
 
       <div className="flex items-center gap-2">
+        <ThemeModeSwitch />
         <a
           href={NOTION_FORM_URL}
           target="_blank"

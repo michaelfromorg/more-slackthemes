@@ -190,7 +190,7 @@ export function ThemeGrid() {
   };
 
   return (
-    <div ref={setContainerRef} className="bg-white px-4 h-full">
+    <div ref={setContainerRef} className="px-4 h-full">
       <RadioGroup
         value={currentTheme.slug}
         onValueChange={(value) => {

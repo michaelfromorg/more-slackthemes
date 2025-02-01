@@ -27,7 +27,7 @@ export default function NotFound() {
       style={backgroundStyle}
     >
       {/* Mock Slack Message Interface */}
-      <div className="w-full max-w-2xl bg-white rounded-lg shadow-lg overflow-hidden border">
+      <div className="w-full max-w-2xl rounded-lg bg-white shadow-lg overflow-hidden border">
         {/* Channel Header */}
         <div className="border-b p-4 flex items-center gap-2">
           <Hash className="w-5 h-5 text-gray-500" />

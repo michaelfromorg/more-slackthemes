@@ -3,7 +3,7 @@ import { Hash, Info, Star, UserPlus } from "lucide-react";
 
 export function ChannelHeader() {
   return (
-    <div className="border-b border-gray-200 px-4 py-2">
+    <div className="border-b px-4 py-2">
       {/* Channel title row */}
       <div className="flex items-center justify-between">
         <div className="flex items-center space-x-2">

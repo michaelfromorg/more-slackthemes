@@ -98,7 +98,7 @@ export function ThemeGridMobile() {
     (containerWidth - GRID_GAP * (columnCount - 1)) / columnCount;
 
   return (
-    <div ref={setContainerRef} className="bg-white px-4 h-full overflow-hidden">
+    <div ref={setContainerRef} className="px-4 h-full overflow-hidden">
       <RadioGroup
         value={currentTheme.slug}
         onValueChange={(value) => {
