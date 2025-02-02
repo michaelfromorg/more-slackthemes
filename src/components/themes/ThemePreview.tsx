@@ -44,7 +44,7 @@ export function ThemePreview({ theme, setActiveTag }: ThemePreviewProps) {
           <div
             className="h-4"
             style={{
-              ...backgroundStyle,
+              backgroundColor: systemNavigation,
               boxShadow: `${alphaColor(
                 inferred.systemNavigationText,
                 0.1
