@@ -87,6 +87,7 @@ function WorkspaceButton({
         <div
           className="absolute -top-2 -right-2 min-w-[18px] h-[18px] rounded-full flex items-center justify-center text-xs font-bold px-1"
           style={{
+            color: textColor,
             backgroundColor: notificationColor,
           }}
         >
