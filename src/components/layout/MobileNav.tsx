@@ -36,7 +36,7 @@ export function MobileNav() {
       </SheetTrigger>
       <SheetContent
         side="left"
-        className="p-0 w-[85vw] max-w-[320px]"
+        className="p-0 w-[0px] max-w-[85vw]"
         style={{
           ...backgroundStyle,
           border: "none",

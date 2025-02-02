@@ -14,7 +14,9 @@ export function TopNav() {
 
   const [isFocused, setIsFocused] = useState(false);
   const searchInputRef = useRef<HTMLInputElement>(null);
-  const [shortcutText] = useState(getShortcutText("K"));
+  const [placeholderText] = useState(
+    `Search themes... ${getShortcutText("K")}`
+  );
 
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
@@ -66,9 +68,7 @@ export function TopNav() {
             ref={searchInputRef}
             type="text"
             className="flex-1 bg-transparent outline-none placeholder:text-inherit placeholder:opacity-50"
-            placeholder={`Search themes... ${
-              shortcutText !== "" ? `(${shortcutText})` : ""
-            }`}
+            placeholder={placeholderText}
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             onFocus={() => setIsFocused(true)}
