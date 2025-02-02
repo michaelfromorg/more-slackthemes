@@ -78,7 +78,6 @@ export function ChannelSidebar() {
                   className="px-1.5 py-0.5 rounded text-xs font-bold"
                   style={{
                     backgroundColor: notifications,
-                    color: "#FFFFFF",
                   }}
                 >
                   {getTagCount("general")}
@@ -88,7 +87,7 @@ export function ChannelSidebar() {
 
             {/* Tag Filters */}
             {allTags
-              .sort((a, b) => getTagCount(b) - getTagCount(a))
+              .sort((a, b) => a.localeCompare(b))
               .map((tag) => (
                 <button
                   key={tag}
@@ -112,7 +111,6 @@ export function ChannelSidebar() {
                       className="px-1.5 py-0.5 rounded text-xs font-bold"
                       style={{
                         backgroundColor: notifications,
-                        color: "#FFFFFF",
                       }}
                     >
                       {getTagCount(tag)}
@@ -199,7 +197,6 @@ function DirectMessageItem({
           className="px-1.5 py-0.5 rounded text-xs font-bold"
           style={{
             backgroundColor: notificationColor,
-            color: "#FFFFFF",
           }}
         >
           {notifications}

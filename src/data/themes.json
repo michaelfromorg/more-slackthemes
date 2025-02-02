@@ -28,6 +28,20 @@
     ]
   },
   {
+    "name": "Anaheim Ducks",
+    "systemNavigation": "#F47A38",
+    "selectedItems": "#B09862",
+    "presenceIndication": "#024930",
+    "notifications": "#C4CED4",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "michael",
+    "submitterLink": "https://michaeldemar.co",
+    "tags": [
+      "nhl"
+    ]
+  },
+  {
     "name": "Ancestry",
     "systemNavigation": "#706b63",
     "selectedItems": "#7a9c0f",
@@ -68,6 +82,20 @@
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
       "paracycle"
+    ]
+  },
+  {
+    "name": "Arizona Coyotes",
+    "systemNavigation": "#8C2633",
+    "selectedItems": "#E2D6B5",
+    "presenceIndication": "#FFFFFF",
+    "notifications": "#111111",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "michael",
+    "submitterLink": "https://michaeldemar.co",
+    "tags": [
+      "nhl"
     ]
   },
   {
@@ -297,6 +325,20 @@
     ]
   },
   {
+    "name": "Boston Bruins",
+    "systemNavigation": "#FFB81C",
+    "selectedItems": "#000000",
+    "presenceIndication": "#FFFFFF",
+    "notifications": "#CE9D6C",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "michael",
+    "submitterLink": "https://michaeldemar.co",
+    "tags": [
+      "nhl"
+    ]
+  },
+  {
     "name": "Bourbon",
     "systemNavigation": "#CF7C44",
     "selectedItems": "#E89A6B",
@@ -325,6 +367,48 @@
     ]
   },
   {
+    "name": "Buffalo Sabres",
+    "systemNavigation": "#002654",
+    "selectedItems": "#FCB514",
+    "presenceIndication": "#C8102E",
+    "notifications": "#A2AAAD",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "michael",
+    "submitterLink": "https://michaeldemar.co",
+    "tags": [
+      "nhl"
+    ]
+  },
+  {
+    "name": "Calgary Flames",
+    "systemNavigation": "#C8102E",
+    "selectedItems": "#F1BE48",
+    "presenceIndication": "#FFFFFF",
+    "notifications": "#111111",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "michael",
+    "submitterLink": "https://michaeldemar.co",
+    "tags": [
+      "nhl"
+    ]
+  },
+  {
+    "name": "Carolina Hurricanes",
+    "systemNavigation": "#CC0000",
+    "selectedItems": "#000000",
+    "presenceIndication": "#76232F",
+    "notifications": "#A2AAAD",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "michael",
+    "submitterLink": "https://michaeldemar.co",
+    "tags": [
+      "nhl"
+    ]
+  },
+  {
     "name": "Chargify",
     "systemNavigation": "#229725",
     "selectedItems": "#13C217",
@@ -350,6 +434,20 @@
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
       "paracycle"
+    ]
+  },
+  {
+    "name": "Chicago Blackhawks",
+    "systemNavigation": "#CF0A2C",
+    "selectedItems": "#000000",
+    "presenceIndication": "#FFFFFF",
+    "notifications": "#FFB81C",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "michael",
+    "submitterLink": "https://michaeldemar.co",
+    "tags": [
+      "nhl"
     ]
   },
   {
@@ -478,6 +576,34 @@
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
       "paracycle"
+    ]
+  },
+  {
+    "name": "Colorado Avalanche",
+    "systemNavigation": "#6F263D",
+    "selectedItems": "#236192",
+    "presenceIndication": "#FFFFFF",
+    "notifications": "#A2AAAD",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "michael",
+    "submitterLink": "https://michaeldemar.co",
+    "tags": [
+      "nhl"
+    ]
+  },
+  {
+    "name": "Columbus Blue Jackets",
+    "systemNavigation": "#002654",
+    "selectedItems": "#CE1126",
+    "presenceIndication": "#041E42",
+    "notifications": "#A4A9AD",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "michael",
+    "submitterLink": "https://michaeldemar.co",
+    "tags": [
+      "nhl"
     ]
   },
   {
@@ -647,6 +773,20 @@
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
       "paracycle"
+    ]
+  },
+  {
+    "name": "Detroit Red Wings",
+    "systemNavigation": "#CE1126",
+    "selectedItems": "#FFFFFF",
+    "presenceIndication": "#000000",
+    "notifications": "#111111",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "michael",
+    "submitterLink": "https://michaeldemar.co",
+    "tags": [
+      "nhl"
     ]
   },
   {
@@ -837,6 +977,20 @@
     ]
   },
   {
+    "name": "Edmonton Oilers",
+    "systemNavigation": "#041E42",
+    "selectedItems": "#FF4C00",
+    "presenceIndication": "#FFFFFF",
+    "notifications": "#A4A9AD",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "",
+    "submitterLink": "",
+    "tags": [
+      "nhl"
+    ]
+  },
+  {
     "name": "EGA",
     "systemNavigation": "#00AAAA",
     "selectedItems": "#FF55FF",
@@ -950,6 +1104,20 @@
     "tags": [
       "paracycle",
       "school"
+    ]
+  },
+  {
+    "name": "Florida Panthers",
+    "systemNavigation": "#C8102E",
+    "selectedItems": "#041E42",
+    "presenceIndication": "#FFFFFF",
+    "notifications": "#B9975B",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "michael",
+    "submitterLink": "https://michaeldemar.co",
+    "tags": [
+      "nhl"
     ]
   },
   {
@@ -1648,6 +1816,20 @@
     ]
   },
   {
+    "name": "Los Angeles Kings",
+    "systemNavigation": "#111111",
+    "selectedItems": "#A2AAAD",
+    "presenceIndication": "#A2AAAD",
+    "notifications": "#FFFFFF",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "michael",
+    "submitterLink": "https://michaeldemar.co",
+    "tags": [
+      "nhl"
+    ]
+  },
+  {
     "name": "Luizalabs",
     "systemNavigation": "#0083CA",
     "selectedItems": "#B26500",
@@ -1900,6 +2082,20 @@
     ]
   },
   {
+    "name": "Minnesota Wild",
+    "systemNavigation": "#154734",
+    "selectedItems": "#A6192E",
+    "presenceIndication": "#FFFFFF",
+    "notifications": "#DDCBA4",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "michael",
+    "submitterLink": "https://michaeldemar.co",
+    "tags": [
+      "nhl"
+    ]
+  },
+  {
     "name": "Mint",
     "systemNavigation": "#333632",
     "selectedItems": "#87CF3E",
@@ -1984,6 +2180,20 @@
     ]
   },
   {
+    "name": "Montreal Canadiens",
+    "systemNavigation": "#AF1E2D",
+    "selectedItems": "#192168",
+    "presenceIndication": "#192168",
+    "notifications": "#FFFFFF",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "michael",
+    "submitterLink": "https://michaeldemar.co",
+    "tags": [
+      "nhl"
+    ]
+  },
+  {
     "name": "Monument",
     "systemNavigation": "#076570",
     "selectedItems": "#F79F66",
@@ -2040,6 +2250,20 @@
     ]
   },
   {
+    "name": "Nashville Predators",
+    "systemNavigation": "#FFB81C",
+    "selectedItems": "#041E42",
+    "presenceIndication": "#041E42",
+    "notifications": "#FFFFFF",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "michael",
+    "submitterLink": "https://michaeldemar.co",
+    "tags": [
+      "nhl"
+    ]
+  },
+  {
     "name": "Netflix",
     "systemNavigation": "#8E0E00",
     "selectedItems": "#8E0E00",
@@ -2052,6 +2276,48 @@
     "tags": [
       "paracycle",
       "company"
+    ]
+  },
+  {
+    "name": "New Jersey Devils",
+    "systemNavigation": "#CE1126",
+    "selectedItems": "#000000",
+    "presenceIndication": "#000000",
+    "notifications": "#FFFFFF",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "michael",
+    "submitterLink": "https://michaeldemar.co",
+    "tags": [
+      "nhl"
+    ]
+  },
+  {
+    "name": "New York Islanders",
+    "systemNavigation": "#00539B",
+    "selectedItems": "#F47D30",
+    "presenceIndication": "#000000",
+    "notifications": "#FFFFFF",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "michael",
+    "submitterLink": "https://michaeldemar.co",
+    "tags": [
+      "nhl"
+    ]
+  },
+  {
+    "name": "New York Rangers",
+    "systemNavigation": "#0038A8",
+    "selectedItems": "#CE1126",
+    "presenceIndication": "#000000",
+    "notifications": "#FFFFFF",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "michael",
+    "submitterLink": "https://michaeldemar.co",
+    "tags": [
+      "nhl"
     ]
   },
   {
@@ -2196,6 +2462,20 @@
     ]
   },
   {
+    "name": "Ottawa Senators",
+    "systemNavigation": "#C2912C",
+    "selectedItems": "#000000",
+    "presenceIndication": "#FFFFFF",
+    "notifications": "#DA1A32",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "michael",
+    "submitterLink": "https://michaeldemar.co",
+    "tags": [
+      "nhl"
+    ]
+  },
+  {
     "name": "Pastel",
     "systemNavigation": "#89cff0",
     "selectedItems": "#FEC8D8",
@@ -2221,6 +2501,20 @@
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
       "paracycle"
+    ]
+  },
+  {
+    "name": "Philadelphia Flyers",
+    "systemNavigation": "#F74902",
+    "selectedItems": "#000000",
+    "presenceIndication": "#000000",
+    "notifications": "#FFFFFF",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "michael",
+    "submitterLink": "https://michaeldemar.co",
+    "tags": [
+      "nhl"
     ]
   },
   {
@@ -2282,10 +2576,10 @@
   },
   {
     "name": "Pittsburgh Penguins",
-    "systemNavigation": "#ffffff",
-    "selectedItems": "#000000",
-    "presenceIndication": "#ffff00",
-    "notifications": "#000000",
+    "systemNavigation": "#000000",
+    "selectedItems": "#FCB514",
+    "presenceIndication": "#FFFFFF",
+    "notifications": "#CFC493",
     "windowGradient": false,
     "darkerSidebars": false,
     "submitterName": "paracycle",
@@ -2526,6 +2820,20 @@
     ]
   },
   {
+    "name": "San Jose Sharks",
+    "systemNavigation": "#006D75",
+    "selectedItems": "#000000",
+    "presenceIndication": "#EA7200",
+    "notifications": "#A4A9AD",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "michael",
+    "submitterLink": "https://michaeldemar.co",
+    "tags": [
+      "nhl"
+    ]
+  },
+  {
     "name": "SeatGeek",
     "systemNavigation": "#1673E6",
     "selectedItems": "#78D30A",
@@ -2537,6 +2845,20 @@
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
       "paracycle"
+    ]
+  },
+  {
+    "name": "Seattle Kraken",
+    "systemNavigation": "#001628",
+    "selectedItems": "#99D9D9",
+    "presenceIndication": "#E9072B",
+    "notifications": "#355464",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "michael",
+    "submitterLink": "https://michaeldemar.co",
+    "tags": [
+      "nhl"
     ]
   },
   {
@@ -2824,6 +3146,20 @@
     ]
   },
   {
+    "name": "St. Louis Blues",
+    "systemNavigation": "#002F87",
+    "selectedItems": "#FCB514",
+    "presenceIndication": "#FFFFFF",
+    "notifications": "#002F87",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "michael",
+    "submitterLink": "https://michaeldemar.co",
+    "tags": [
+      "nhl"
+    ]
+  },
+  {
     "name": "Starbucks",
     "systemNavigation": "#0A6242",
     "selectedItems": "#3D3935",
@@ -2906,6 +3242,20 @@
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
       "paracycle"
+    ]
+  },
+  {
+    "name": "Tampa Bay Lightning",
+    "systemNavigation": "#002868",
+    "selectedItems": "#FFFFFF",
+    "presenceIndication": "#000000",
+    "notifications": "#00A3E0",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "michael",
+    "submitterLink": "https://michaeldemar.co",
+    "tags": [
+      "nhl"
     ]
   },
   {
@@ -3005,6 +3355,20 @@
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
       "paracycle"
+    ]
+  },
+  {
+    "name": "Toronto Maple Leafs",
+    "systemNavigation": "#00205B",
+    "selectedItems": "#FFFFFF",
+    "presenceIndication": "#000000",
+    "notifications": "#00205B",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "michael",
+    "submitterLink": "https://michaeldemar.co",
+    "tags": [
+      "nhl"
     ]
   },
   {
@@ -3155,11 +3519,39 @@
     ]
   },
   {
+    "name": "Utah Hockey Club",
+    "systemNavigation": "#002B5C",
+    "selectedItems": "#F3A927",
+    "presenceIndication": "#1D4289",
+    "notifications": "#141414",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "michael",
+    "submitterLink": "https://michaeldemar.co",
+    "tags": [
+      "nhl"
+    ]
+  },
+  {
+    "name": "Vancouver Canucks",
+    "systemNavigation": "#00205B",
+    "selectedItems": "#00843D",
+    "presenceIndication": "#99999A",
+    "notifications": "#041C2C",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "michael",
+    "submitterLink": "https://michaeldemar.co",
+    "tags": [
+      "nhl"
+    ]
+  },
+  {
     "name": "Vegas Golden Knights",
-    "systemNavigation": "#85714D",
-    "selectedItems": "#85714D",
-    "presenceIndication": "#E31837",
-    "notifications": "#E31837",
+    "systemNavigation": "#B4975A",
+    "selectedItems": "#333F42",
+    "presenceIndication": "#000000",
+    "notifications": "#FFFFFF",
     "windowGradient": false,
     "darkerSidebars": false,
     "submitterName": "paracycle",
@@ -3210,6 +3602,20 @@
     "submitterLink": "https://github.com/paracycle/slackthemes",
     "tags": [
       "paracycle"
+    ]
+  },
+  {
+    "name": "Washington Capitals",
+    "systemNavigation": "#041E42",
+    "selectedItems": "#004C97",
+    "presenceIndication": "#FFFFFF",
+    "notifications": "#AC162C",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "michael",
+    "submitterLink": "https://michaeldemar.co",
+    "tags": [
+      "nhl"
     ]
   },
   {
@@ -3372,6 +3778,20 @@
       "paracycle",
       "technology",
       "retro"
+    ]
+  },
+  {
+    "name": "Winnipeg Jets",
+    "systemNavigation": "#041E42",
+    "selectedItems": "#C8102E",
+    "presenceIndication": "#000000",
+    "notifications": "#FFFFFF",
+    "windowGradient": false,
+    "darkerSidebars": false,
+    "submitterName": "michael",
+    "submitterLink": "https://michaeldemar.co",
+    "tags": [
+      "nhl"
     ]
   },
   {

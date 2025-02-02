@@ -33,7 +33,6 @@ function SidebarItem({ icon, label, notifications }: SidebarItemProps) {
           className="px-1.5 rounded text-xs font-bold"
           style={{
             backgroundColor: notificationColor,
-            color: "#FFFFFF",
           }}
         >
           {notifications}
