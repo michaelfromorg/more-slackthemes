@@ -31,7 +31,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={`${lato.variable} font-sans`}>
         <ThemeProvider defaultTheme="light" storageKey="theme-mode">
           <Layout>{children}</Layout>

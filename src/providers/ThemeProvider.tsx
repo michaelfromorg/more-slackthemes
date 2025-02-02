@@ -1,9 +1,9 @@
-// providers/theme-provider.tsx
+// components/theme-provider.tsx
 "use client";
 
 import { createContext, useContext, useEffect, useState } from "react";
 
-type Theme = "light" | "dark";
+type Theme = "light" | "dark" | undefined;
 
 type ThemeProviderProps = {
   children: React.ReactNode;
@@ -17,7 +17,7 @@ type ThemeProviderState = {
 };
 
 const initialState: ThemeProviderState = {
-  theme: "light",
+  theme: undefined,
   setTheme: () => null,
 };
 
@@ -26,29 +26,51 @@ const ThemeProviderContext = createContext<ThemeProviderState>(initialState);
 export function ThemeProvider({
   children,
   defaultTheme = "light",
-  storageKey = "theme",
+  storageKey = "ui-theme",
   ...props
 }: ThemeProviderProps) {
-  const [theme, setTheme] = useState<Theme>(
-    () => (localStorage?.getItem(storageKey) as Theme) || defaultTheme
-  );
+  const [theme, setTheme] = useState<Theme>(defaultTheme);
 
   useEffect(() => {
     const root = window.document.documentElement;
+    const initialColorValue = root.classList.contains("dark")
+      ? "dark"
+      : "light";
 
-    // Remove old theme class
-    root.classList.remove("light", "dark");
+    // Set initial theme from localStorage or system preference
+    setTheme(initialColorValue);
 
-    // Add new theme class
-    root.classList.add(theme);
+    // Watch for system theme changes
+    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+    const handleChange = () => {
+      if (!localStorage.getItem(storageKey)) {
+        setTheme(mediaQuery.matches ? "dark" : "light");
+      }
+    };
 
-    // Save to storage
-    localStorage.setItem(storageKey, theme);
+    mediaQuery.addEventListener("change", handleChange);
+    return () => mediaQuery.removeEventListener("change", handleChange);
+  }, [storageKey]);
+
+  useEffect(() => {
+    if (theme) {
+      const root = window.document.documentElement;
+      root.classList.remove("light", "dark");
+      root.classList.add(theme);
+      try {
+        localStorage.setItem(storageKey, theme);
+      } catch (e) {
+        // Handle localStorage errors
+        console.error("Failed to save theme preference:", e);
+      }
+    }
   }, [theme, storageKey]);
 
   const value = {
     theme,
-    setTheme: (theme: Theme) => setTheme(theme),
+    setTheme: (theme: Theme) => {
+      setTheme(theme);
+    },
   };
 
   return (
