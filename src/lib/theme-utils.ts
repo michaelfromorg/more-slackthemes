@@ -33,15 +33,18 @@ export function inferColors(
 }
 
 /**
- * Creates gradient colors if window gradient is enabled
+ * Creates gradient colors between two given colors
  */
-export function createGradient(systemNavigation: string): {
+export function createGradient(
+  color1: string,
+  color2: string
+): {
   start: string;
   end: string;
 } {
   return {
-    start: chroma(systemNavigation).brighten(0.2).hex(),
-    end: chroma(systemNavigation).darken(0.2).hex(),
+    start: chroma(color1).hex(),
+    end: chroma(color2).hex(),
   };
 }
 
@@ -56,7 +59,10 @@ export function processTheme(rawTheme: RawTheme): Theme {
 
   // Add gradient colors if enabled
   if (rawTheme.windowGradient) {
-    const gradient = createGradient(rawTheme.systemNavigation);
+    const gradient = createGradient(
+      rawTheme.systemNavigation,
+      rawTheme.selectedItems
+    );
     inferred.gradientStart = gradient.start;
     inferred.gradientEnd = gradient.end;
   }
@@ -87,9 +93,7 @@ export function processTheme(rawTheme: RawTheme): Theme {
  * Generates the theme string for Slack
  */
 export function generateThemeString(theme: Theme): string {
-  return `${theme.colors.systemNavigation},${theme.colors.selectedItems},${
-    theme.colors.presenceIndication
-  },${theme.colors.notifications}${theme.windowGradient ? ",gradient" : ""}`;
+  return `${theme.colors.systemNavigation},${theme.colors.selectedItems},${theme.colors.presenceIndication},${theme.colors.notifications}`;
 }
 
 /**

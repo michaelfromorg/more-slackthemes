@@ -72,8 +72,8 @@ export function ThemeShareMobile() {
           <SheetTitle>Share Theme</SheetTitle>
           <SheetDescription>
             {currentTheme.windowGradient
-              ? "Copy these colors and gradient to use in Slack"
-              : "Copy these colors to use in Slack"}
+              ? "Copy these colors and gradient to use in Slack."
+              : "Copy these colors to use in Slack."}
           </SheetDescription>
         </SheetHeader>
 

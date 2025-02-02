@@ -9,22 +9,12 @@ import { ThemeModeSwitch } from "./ThemeModeSwitch";
 
 export function TopNav() {
   const { currentTheme, searchQuery, setSearchQuery } = useThemeStore();
-  const { colors, windowGradient } = currentTheme;
+  const { colors } = currentTheme;
   const { systemNavigation, inferred } = colors;
 
   const [isFocused, setIsFocused] = useState(false);
   const searchInputRef = useRef<HTMLInputElement>(null);
   const [shortcutText] = useState(getShortcutText("K"));
-
-  // Create background style based on whether gradient is enabled
-  const backgroundStyle =
-    windowGradient && inferred.gradientStart && inferred.gradientEnd
-      ? {
-          background: `linear-gradient(to bottom, ${inferred.gradientStart}, ${inferred.gradientEnd})`,
-        }
-      : {
-          backgroundColor: systemNavigation,
-        };
 
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
@@ -48,7 +38,7 @@ export function TopNav() {
     <div
       className="flex items-center h-12 px-4 border-b"
       style={{
-        ...backgroundStyle,
+        backgroundColor: systemNavigation,
         color: inferred.systemNavigationText,
         borderColor: alphaColor(inferred.systemNavigationText, 0.1),
       }}
