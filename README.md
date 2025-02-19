@@ -1,6 +1,6 @@
 # Slack Themes 🎨
 
-A modern web application for browsing, sharing, and generating Slack themes. Built with Next.js, React, and TypeScript.
+A modern web application for browsing, sharing, and generating Slack themes. Built with Next.js, React, TypeScript, and Notion.
 
 [![Built with Next.js](https://img.shields.io/badge/Built_with-Next.js-black?style=flat-square&logo=next.js)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org)
