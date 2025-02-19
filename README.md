@@ -98,6 +98,10 @@ This is a static site that can be deployed to any static hosting service like Ve
 
 If you have questions or run into issues, please check the [Issues](https://github.com/michaelfromorg/more-slackthemes/issues) page or create a new issue.
 
+## Author
+
+- [@michaelfromyeg](https://github.com/michaelfromyeg)
+
 ---
 
 "Slack Themes" is not affiliated with Slack in any way, shape, or form.
