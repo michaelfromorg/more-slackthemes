@@ -105,3 +105,4 @@ If you have questions or run into issues, please check the [Issues](https://gith
 ---
 
 "Slack Themes" is not affiliated with Slack in any way, shape, or form.
+
