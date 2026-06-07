@@ -88,7 +88,10 @@ const useThemeStore = create<ThemeStore>((set, get) => ({
     if (typeof window === "undefined") return;
 
     const url = new URL(window.location.href);
-    const themeSlug = url.searchParams.get("theme");
+    // On a /themes/<slug> detail page, theme the chrome to that theme;
+    // otherwise fall back to the ?theme= query param used on the home page.
+    const pathMatch = url.pathname.match(/^\/themes\/([^/]+)/);
+    const themeSlug = pathMatch ? pathMatch[1] : url.searchParams.get("theme");
     const tag = url.searchParams.get("tag") || "general";
 
     if (themeSlug) {

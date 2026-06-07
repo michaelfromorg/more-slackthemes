@@ -90,6 +90,28 @@ export function processTheme(rawTheme: RawTheme): Theme {
 }
 
 /**
+ * Builds a plain-language, crawlable description of a theme's colors.
+ * Used for SEO content and structured data so search engines can index
+ * each theme by name and palette.
+ */
+export function describeTheme(theme: Theme): string {
+  const { systemNavigation, selectedItems, presenceIndication, notifications } =
+    theme.colors;
+  let description =
+    `${theme.name} is a Slack theme with a ${systemNavigation} sidebar, ` +
+    `${selectedItems} active item highlight, ` +
+    `${presenceIndication} presence indicator, ` +
+    `and ${notifications} notification badge.`;
+  if (theme.windowGradient) {
+    description += " Features a window gradient.";
+  }
+  if (theme.submitter) {
+    description += ` Submitted by ${theme.submitter.name}.`;
+  }
+  return description;
+}
+
+/**
  * Generates the theme string for Slack
  */
 export function generateThemeString(theme: Theme): string {

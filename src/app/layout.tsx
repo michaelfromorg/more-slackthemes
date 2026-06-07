@@ -1,11 +1,16 @@
 import { GoogleAnalytics } from "@/components/layout/GoogleAnalytics";
 import { Layout } from "@/components/layout/Layout";
+import { SITE_URL } from "@/lib/constants";
 import { lato } from "@/lib/fonts";
 import { ThemeProvider } from "@/providers/ThemeProvider";
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
+  alternates: {
+    canonical: "/",
+  },
   title: "Slack Themes - Browse, Share & Generate Custom Workspace Themes",
   description:
     "Create, customize, and share beautiful Slack themes. Preview themes live, generate colors from workspace logos, and apply them instantly to your Slack workspace.",
@@ -48,15 +53,17 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-  },
   // TODO(michaelfromyeg): validate this!/
   // https://search.google.com/search-console?resource_id=sc-domain%3Aslack.michaeldemar.co
   // verification: {
   //   google: "your-google-site-verification",
   // },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#4A154B",
 };
 
 export default function RootLayout({

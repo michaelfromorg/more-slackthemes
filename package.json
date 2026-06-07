@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "prebuild": "node --experimental-json-modules scripts/notion.js",
-    "build": "next build",
+    "generate:og": "node scripts/generate-og.mjs",
+    "build": "npm run generate:og && next build",
     "postbuild": "next-sitemap next-sitemap --config next-sitemap.config.cjs",
     "start": "next start",
     "serve": "npx serve@latest out",
