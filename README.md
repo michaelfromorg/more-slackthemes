@@ -31,7 +31,7 @@ Inspired by [Slack Themes](https://slackthemes.com).
 
     ```bash
     gh repo clone michaelfromorg/more-slackthemes
-    cd slack-themes
+    cd more-slackthemes
     ```
 
 2. Install dependencies.
